@@ -46,7 +46,7 @@ Panaroo is a graph-based pangenome clustering tool, that is designed to correct 
 >
 {: .agenda}
 
-## What is Panaroo
+## What does it do
 
 > <hands-on-title> Data Upload </hands-on-title>
 >
@@ -69,7 +69,7 @@ Panaroo is a graph-based pangenome clustering tool, that is designed to correct 
 
 We just imported a FASTA file into Galaxy. Now, the next would be to perfrom the BLAST analysis against MAdLandDB.
 
-## What does it do
+## What are the inputs
 
 Since MAdLandDB is the collection of protein sequences, You can perform {% tool [BLASTp](toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2) %} and {% tool [BLASTx](toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2) %} tools.
 
@@ -87,7 +87,7 @@ Since MAdLandDB is the collection of protein sequences, You can perform {% tool 
 >
 {: .hands_on}
 
-## What are the inputs
+## What are the expected outputs
 
 {% icon tool %} The BLAST output will be in tabular format (you can select the desired output format from the drop down menu) and include the following fields :
 
@@ -115,7 +115,7 @@ The fields are separated by tabs, and each row represents a single hit. For more
 >
 {: .details}
 
-## What are the expected outputs
+## How to interpret the results
 
 * **Diamond**: {% tool [Diamond](toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0) %} is a high-throughput program for alignment of  large-scale data sets. It aligns sequences to the reference database using a compressed version of the reference sequences called a "database diamond" which is faster to read and can save computational time (~20,000 times the speed of Blastx, with high sensitivity).
 
@@ -123,7 +123,5 @@ The fields are separated by tabs, and each row represents a single hit. For more
 >
 > See {% cite Buchfink2014 %} for more discussion.
 {: .details}
-
-## How to interpret the results
 
 
