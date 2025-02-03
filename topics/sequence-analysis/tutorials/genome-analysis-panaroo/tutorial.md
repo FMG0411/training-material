@@ -4,17 +4,21 @@ layout: tutorial_hands_on
 title: "Genome annotation and analysis with panaroo"
 zenodo_link: "https://zenodo.org/records/14796384"
 questions:
-  - "?"
-  - "?"
+  - "What is Panaroo?"
+  - "What are the inputs?"
+  - "What are the expected outputs?"
+  - "How does Panaroo make pangenome analysis more accurate?"
+  - "How does Panaroo’s performance compare to other methods?"
+  - 
 objectives:
-  - ""
-  - ""
+  - "correct for many of the sources of annotation error"
+  - "improve annotation calls and allow for the comparison of pangenomes between species"
 time_estimation: "15m"
 key_points:
-  - 
-
-  - 
-  - 
+  - Panaroo is able to account for many of the sources of error during automated annotation.
+  - Panaroo uses a graph-based approach to correct annotation errors, fragmented assemblies, and contamination, leading to more accurate genome predictions.
+  - Panaroo is written in Python, open-source, and designed to handle large datasets.
+  - Panaroo also includes a number of pre- and post-processing scripts for the analysis of bacterial pangenomes that assist in quality control of the input data and facilitate downstream processing of the pangenome.
 
 contributions:
   authorship:
