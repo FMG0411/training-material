@@ -3,6 +3,7 @@ layout: tutorial_hands_on
 
 title: "Genome annotation and analysis with panaroo"
 zenodo_link: "https://zenodo.org/records/14796384"
+
 questions:
   - "What is Panaroo?"
   - "What are the inputs?"
@@ -11,9 +12,11 @@ questions:
   - "How does Panaroo’s performance compare to other methods?"
   - 
 objectives:
-  - "correct for many of the sources of annotation error"
-  - "improve annotation calls and allow for the comparison of pangenomes between species"
+  - "Correct for many of the sources of annotation error"
+  - "Improve annotation calls and allow for the comparison of pangenomes between species"
+  - 
 time_estimation: "15m"
+
 key_points:
   - Panaroo is able to account for many of the sources of error during automated annotation.
   - Panaroo uses a graph-based approach to correct annotation errors, fragmented assemblies, and contamination, leading to more accurate genome predictions.
@@ -30,7 +33,7 @@ tags:
 ---
 
 
-Text about Panaroo
+Panaroo is a graph-based pangenome clustering tool, that is designed to correct for many sources of error introduced during annotation. This includes refinding genes were there are inconsistencies. Panaroo does this by clustering genes based on sequence similarity and identifies similar genes from different species.
 
 
 
