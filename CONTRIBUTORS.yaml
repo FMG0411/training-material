@@ -59,8 +59,7 @@ a-asai:
 
 abretaud:
     name: Anthony Bretaudeau
-    email: anthony.bretaudeau@inrae.fr
-    twitter: abretau
+    email: anthony.bretaudeau@irisa.fr
     matrix: 'abretaud:matrix.org'
     orcid: 0000-0003-0914-2470
     joined: 2017-09
@@ -72,6 +71,7 @@ abretaud:
       lon: -1.64
     fediverse: https://genomic.social/@abretaud
     fediverse_flavor: mastodon
+    bluesky: abretaud.bsky.social
     affiliations:
       - gallantries
       - eurosciencegateway
@@ -1202,6 +1202,17 @@ jfallmann:
     name: Joerg Fallmann
     joined: 2017-09
 
+wennj:
+    name: Jörg Wennmann
+    email: joerg.wennmann@julius-kuehn.de
+    orcid: 0000-0003-3060-8992
+    contact_for_training: true
+    joined: 2025-01
+    location:
+      country: DE
+      lat: 49.449466
+      lon: 8.640339
+
 jfaulon:
     name: Jean-Loup Faulon
     email: Jean-loup.Faulon@inrae.fr
@@ -1400,6 +1411,14 @@ kostrykin:
     affiliations:
       - elixir-europe
       - deNBI
+
+KristinaGomoryova:
+    name: Kristina Gomoryova
+    orcid: 0000-0003-4407-3917
+    joined: 2025-01
+    email: gomoryova@sci.muni.cz
+    elixir_node: cz
+    twitter: kristina_gomory
 
 kxk302:
     name: Kaivan Kamali
@@ -1701,6 +1720,16 @@ mcmaniou:
     elixir_node: gr
     affiliations:
       - elixir-europe
+
+MD-Chem:
+    name: Mohua Das
+    joined: 2024-12
+    orcid: 0000-0002-8891-6333
+    email: dasmohua1991@gmail.com
+    affiliations:
+      - gis
+    location:
+        country: SG
 
 Mehgan-E:
     name: Mehgan Evans
@@ -2099,6 +2128,16 @@ pcm32:
     name: Pablo Moreno
     joined: 2019-06
 
+philreeddata:
+    name: Phil Reed
+    orcid: 0000-0002-4479-715X
+    bluesky: philreeddata.bsky.social
+    elixir_node: uk
+    bio: "Research Community & Training Manager"
+    joined: 2025-02
+    affiliations:
+      - elixir-europe
+
 plushz:
     name: Polina Polunina
     orcid: 0000-0002-0507-4602
@@ -2320,6 +2359,9 @@ sbenateau:
     affiliations:
       - elixir-europe
 
+scottcain:
+    name: Scott Cain
+    joined: 2025-01
 
 sebastian-schaaf:
     name: Sebastian Schaaf
@@ -2364,6 +2406,13 @@ Shorla:
     email: Sogunkelu@gmail.com
     joined: 2021-10
 
+shrutikhare-git:
+    name: Shruti Khare
+    joined: 2024-12
+    email: skshrutikhare@gmail.com
+    orcid: 0000-0001-5622-2663
+    location:        
+      country: SG    
 shwdey:
     name: Shweta Pandey
     email: shwphd@gmail.com

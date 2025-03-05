@@ -232391,3 +232391,4111 @@
   title: Auto Compress Images
   updatedAt: '2025-01-27T07:08:09Z'
   url: https://github.com/galaxyproject/training-material/pull/5714
+5735:
+  author:
+    id: MDQ6VXNlcjE2MzY2ODc1
+    is_bot: false
+    login: dadrasarmin
+    name: Armin Dadras
+  closedAt: '2025-02-07T17:49:29Z'
+  createdAt: '2025-02-07T12:19:24Z'
+  files:
+  - path: topics/epigenetics/tutorials/formation_of_super-structures_on_xi/tutorial.md
+    additions: 26
+    deletions: 6
+  headRefName: dadrasarmin-formation_of_super-structures_on_xi
+  headRepository:
+    id: R_kgDONrqQiw
+    name: training-material
+  labels:
+  - epigenetics
+  mergedAt: '2025-02-07T17:49:29Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-02-07T13:29:16Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-07T13:58:42Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update tutorial.md of a tutorial called "Formation of the Super-Structures
+    on the Inactive X"
+  updatedAt: '2025-02-07T17:49:29Z'
+  url: https://github.com/galaxyproject/training-material/pull/5735
+5734:
+  author:
+    id: U_kgDOCSx0_g
+    is_bot: false
+    login: Swathi266
+    name: Swathi Nataraj
+  closedAt: '2025-02-07T13:25:24Z'
+  createdAt: '2025-02-07T09:29:23Z'
+  files:
+  - path: topics/introduction/tutorials/data-manipulation-olympics/tutorial.md
+    additions: 7
+    deletions: 7
+  headRefName: patch-9
+  headRepository:
+    id: R_kgDOMo6RTA
+    name: training-material
+  labels:
+  - introduction
+  mergedAt: '2025-02-07T13:25:24Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-07T13:25:17Z'
+    reactionGroups: []
+  state: MERGED
+  title: Few edits
+  updatedAt: '2025-02-07T13:47:38Z'
+  url: https://github.com/galaxyproject/training-material/pull/5734
+5732:
+  author:
+    id: U_kgDOCSx0_g
+    is_bot: false
+    login: Swathi266
+    name: Swathi Nataraj
+  closedAt: '2025-02-07T13:27:48Z'
+  createdAt: '2025-02-06T06:44:56Z'
+  files:
+  - path: topics/introduction/tutorials/data-manipulation-olympics/tutorial.md
+    additions: 8
+    deletions: 8
+  headRefName: patch-8
+  headRepository:
+    id: R_kgDOMo6RTA
+    name: training-material
+  labels:
+  - introduction
+  mergedAt: '2025-02-07T13:27:48Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-07T13:26:27Z'
+    reactionGroups: []
+  state: MERGED
+  title: Few edits
+  updatedAt: '2025-02-07T13:45:23Z'
+  url: https://github.com/galaxyproject/training-material/pull/5732
+5709:
+  author:
+    id: MDQ6VXNlcjQ1OTQzNjI5
+    is_bot: false
+    login: KristinaGomoryova
+    name: Kristina Gomoryova
+  closedAt: '2025-02-07T12:22:04Z'
+  createdAt: '2025-01-22T08:09:14Z'
+  files:
+  - path: CONTRIBUTORS.yaml
+    additions: 8
+    deletions: 0
+  - path: topics/proteomics/images/bioconductor-scp_SCOPE2.png
+    additions: 0
+    deletions: 0
+  - path: topics/proteomics/tutorials/bioconductor-scp/faqs/index.md
+    additions: 3
+    deletions: 0
+  - path: topics/proteomics/tutorials/bioconductor-scp/tutorial.bib
+    additions: 150
+    deletions: 0
+  - path: topics/proteomics/tutorials/bioconductor-scp/tutorial.md
+    additions: 421
+    deletions: 0
+  - path: topics/proteomics/tutorials/bioconductor-scp/workflows/index.md
+    additions: 3
+    deletions: 0
+  headRefName: scp_training
+  headRepository:
+    id: R_kgDOMjbJaQ
+    name: training-material
+  labels:
+  - template-and-tools
+  - proteomics
+  mergedAt: '2025-02-07T12:22:04Z'
+  mergedBy:
+    id: MDQ6VXNlcjUyNjgyNzc=
+    is_bot: false
+    login: pavanvidem
+    name: Pavankumar Videm
+  reactionGroups:
+  - content: HEART
+    users:
+      totalCount: 2
+  reviews:
+  - author:
+      login: hechth
+    state: DISMISSED
+    submittedAt: '2025-01-29T16:29:30Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:24:36Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:26:19Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:28:26Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:28:35Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:28:46Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:28:54Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:29:04Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:29:16Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:29:26Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:29:40Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:29:50Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:30:01Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-01-30T10:49:32Z'
+    reactionGroups: []
+  - author:
+      login: pavanvidem
+    state: COMMENTED
+    submittedAt: '2025-02-03T15:32:16Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-03T18:14:32Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-03T18:14:46Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-03T18:14:55Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-03T18:18:20Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-03T18:18:31Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-03T18:18:42Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-03T18:18:52Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-03T18:20:53Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-03T18:21:04Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-04T10:43:37Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-04T10:56:51Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-04T11:03:57Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-04T11:08:27Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-04T11:08:36Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-04T11:16:19Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-04T11:46:48Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-04T11:47:38Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-04T14:14:05Z'
+    reactionGroups: []
+  - author:
+      login: KristinaGomoryova
+    state: COMMENTED
+    submittedAt: '2025-02-05T11:37:29Z'
+    reactionGroups: []
+  - author:
+      login: pavanvidem
+    state: COMMENTED
+    submittedAt: '2025-02-07T10:39:20Z'
+    reactionGroups: []
+  - author:
+      login: pavanvidem
+    state: COMMENTED
+    submittedAt: '2025-02-07T10:40:40Z'
+    reactionGroups: []
+  - author:
+      login: pavanvidem
+    state: DISMISSED
+    submittedAt: '2025-02-07T10:55:51Z'
+    reactionGroups:
+    - content: HEART
+      users:
+        totalCount: 1
+  - author:
+      login: pavanvidem
+    state: APPROVED
+    submittedAt: '2025-02-07T12:21:48Z'
+    reactionGroups: []
+  state: MERGED
+  title: Training for the bioconductor-scp tool
+  updatedAt: '2025-02-07T12:29:30Z'
+  url: https://github.com/galaxyproject/training-material/pull/5709
+5731:
+  author:
+    id: U_kgDOCSx0_g
+    is_bot: false
+    login: Swathi266
+    name: Swathi Nataraj
+  closedAt: '2025-02-05T21:04:27Z'
+  createdAt: '2025-02-05T12:45:29Z'
+  files:
+  - path: topics/introduction/tutorials/galaxy-intro-101/tutorial.md
+    additions: 1
+    deletions: 1
+  headRefName: patch-7
+  headRepository:
+    id: R_kgDOMo6RTA
+    name: training-material
+  labels:
+  - introduction
+  mergedAt: '2025-02-05T21:04:27Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-05T20:52:21Z'
+    reactionGroups: []
+  state: MERGED
+  title: Grammar edit
+  updatedAt: '2025-02-06T05:46:31Z'
+  url: https://github.com/galaxyproject/training-material/pull/5731
+5730:
+  author:
+    id: U_kgDOCSx0_g
+    is_bot: false
+    login: Swathi266
+    name: Swathi Nataraj
+  closedAt: '2025-02-05T10:20:11Z'
+  createdAt: '2025-02-05T07:53:22Z'
+  files:
+  - path: faqs/galaxy/datasets_import_from_data_library.md
+    additions: 1
+    deletions: 1
+  headRefName: patch-6
+  headRepository:
+    id: R_kgDOMo6RTA
+    name: training-material
+  labels:
+  - faqs
+  mergedAt: '2025-02-05T10:20:11Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-05T10:20:05Z'
+    reactionGroups: []
+  state: MERGED
+  title: Grammar edit
+  updatedAt: '2025-02-05T12:51:17Z'
+  url: https://github.com/galaxyproject/training-material/pull/5730
+5729:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-05T10:21:10Z'
+  createdAt: '2025-02-05T01:10:04Z'
+  files:
+  - path: topics/single-cell/tutorials/bulk-deconvolution-evaluate/data-library.yaml
+    additions: 78
+    deletions: 0
+  headRefName: create-pull-request/patch-1738717801
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-05T10:21:10Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews: []
+  state: MERGED
+  title: Add missing data-library.yaml files
+  updatedAt: '2025-02-05T10:21:14Z'
+  url: https://github.com/galaxyproject/training-material/pull/5729
+5727:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-03T14:48:39Z'
+  createdAt: '2025-02-03T13:07:51Z'
+  files:
+  - path: metadata/workflowhub.yml
+    additions: 4
+    deletions: 0
+  headRefName: create-pull-request/patch-1738588067
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-03T14:48:39Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-03T14:48:33Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update WorkflowHub IDs
+  updatedAt: '2025-02-03T14:48:40Z'
+  url: https://github.com/galaxyproject/training-material/pull/5727
+5725:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-03T09:51:36Z'
+  createdAt: '2025-02-03T01:09:38Z'
+  files:
+  - path: metadata/shortlinks.yaml
+    additions: 5
+    deletions: 0
+  headRefName: create-pull-request/patch-1738544976
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-03T09:51:36Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews: []
+  state: MERGED
+  title: Update Persistent uniform resource locators
+  updatedAt: '2025-02-03T09:51:36Z'
+  url: https://github.com/galaxyproject/training-material/pull/5725
+5726:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-03T09:51:26Z'
+  createdAt: '2025-02-03T01:11:05Z'
+  files:
+  - path: metadata/git-mod-8c7ed9154cd76c9027b0a247c539573070ac0dca.txt
+    additions: 137
+    deletions: 0
+  - path: metadata/git-pub-8c7ed9154cd76c9027b0a247c539573070ac0dca.txt
+    additions: 84
+    deletions: 0
+  - path: metadata/github.yml
+    additions: 823
+    deletions: 0
+  headRefName: create-pull-request/patch-1738545063
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-03T09:51:26Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews: []
+  state: MERGED
+  title: Update Cached Commit Data
+  updatedAt: '2025-02-03T09:51:26Z'
+  url: https://github.com/galaxyproject/training-material/pull/5726
+5783:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-16T23:47:38Z'
+  createdAt: '2025-02-16T23:31:07Z'
+  files:
+  - path: faqs/gtn/images/minor-fix-01.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-02.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-04.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-06.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-07.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-08.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-11.png
+    additions: 0
+    deletions: 0
+  - path: news/images/2024-02-14-spoc_maintainer_updates.png
+    additions: 0
+    deletions: 0
+  - path: news/images/2025-02-14-spoc-hdr-cofest_outputs.png
+    additions: 0
+    deletions: 0
+  - path: topics/introduction/images/upload-box.png
+    additions: 0
+    deletions: 0
+  - path: topics/sequence-analysis/images/quality-control/fastqe-mean-after.png
+    additions: 0
+    deletions: 0
+  - path: topics/sequence-analysis/images/quality-control/fastqe-mean-before.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/Decoupler_Filter_by_Expression_Plot.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/VolcanoPlot.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/Volcano_plot_tcells.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/bcvplot.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/qlplot.png
+    additions: 0
+    deletions: 0
+  headRefName: create-pull-request/patch-1739748663
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-16T23:47:38Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews: []
+  state: MERGED
+  title: Auto Compress Images
+  updatedAt: '2025-02-16T23:47:42Z'
+  url: https://github.com/galaxyproject/training-material/pull/5783
+5781:
+  author:
+    id: MDQ6VXNlcjU4NTI0NDYw
+    is_bot: false
+    login: hexhowells
+    name: Morgan
+  closedAt: '2025-02-14T18:58:23Z'
+  createdAt: '2025-02-14T18:16:03Z'
+  files:
+  - path: topics/single-cell/tutorials/EBI-retrieval/tutorial.md
+    additions: 4
+    deletions: 4
+  - path: topics/single-cell/tutorials/EBI-retrieval/workflows/EBI-SCXA-to-AnnData-(Scanpy)-or-Seurat-Object-tests.yml
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/tutorials/EBI-retrieval/workflows/EBI-SCXA-to-AnnData-(Scanpy)-or-Seurat-Object.ga
+    additions: 478
+    deletions: 1
+  headRefName: public-atlas-tool-updates
+  headRepository:
+    id: R_kgDOJvXBYQ
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-14T18:58:23Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-14T18:57:51Z'
+    reactionGroups: []
+  state: MERGED
+  title: Importing From Public atlas - Tool Updates
+  updatedAt: '2025-02-14T18:58:23Z'
+  url: https://github.com/galaxyproject/training-material/pull/5781
+5780:
+  author:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  closedAt: '2025-02-14T17:20:59Z'
+  createdAt: '2025-02-14T17:20:38Z'
+  files:
+  - path: ".github/workflows/blueskyfeedbot.yml"
+    additions: 2
+    deletions: 1
+  headRefName: bskyfix
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - template-and-tools
+  mergedAt: '2025-02-14T17:20:58Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews: []
+  state: MERGED
+  title: update template to be shorter
+  updatedAt: '2025-02-14T17:31:33Z'
+  url: https://github.com/galaxyproject/training-material/pull/5780
+5779:
+  author:
+    id: MDQ6VXNlcjQ5MjQ2MjM=
+    is_bot: false
+    login: nsoranzo
+    name: Nicola Soranzo
+  closedAt: '2025-02-14T13:11:53Z'
+  createdAt: '2025-02-14T12:44:43Z'
+  files:
+  - path: news/_posts/2025-02-14-spoc_hdr_cofest.md
+    additions: 3
+    deletions: 3
+  headRefName: elixir-UK
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnk3OTEzMTEzMQ==
+    name: training-material
+  labels:
+  - news
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-14T13:11:53Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T13:11:43Z'
+    reactionGroups: []
+  state: MERGED
+  title: Fix ELIXIR-UK typos
+  updatedAt: '2025-02-14T15:43:08Z'
+  url: https://github.com/galaxyproject/training-material/pull/5779
+5592:
+  author:
+    id: MDQ6VXNlcjgyOTYxOTEy
+    is_bot: false
+    login: shrutikhare-git
+    name: shruti
+  closedAt: '2025-02-14T14:07:09Z'
+  createdAt: '2024-12-04T04:10:44Z'
+  files:
+  - path: CONTRIBUTORS.yaml
+    additions: 7
+    deletions: 0
+  headRefName: patch-1
+  headRepository:
+    id: R_kgDONYohMg
+    name: training-material
+  labels:
+  - template-and-tools
+  - spoc-cofest
+  mergedAt: '2025-02-14T14:07:09Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2024-12-04T14:42:57Z'
+    reactionGroups: []
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2024-12-04T14:45:15Z'
+    reactionGroups: []
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2024-12-06T10:18:10Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T14:00:59Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T14:01:29Z'
+    reactionGroups: []
+  state: MERGED
+  title: Add shrutikhare-git as contributor
+  updatedAt: '2025-02-14T14:07:09Z'
+  url: https://github.com/galaxyproject/training-material/pull/5592
+5595:
+  author:
+    id: MDQ6VXNlcjU5NDA0OTI4
+    is_bot: false
+    login: MD-Chem
+    name: Mohua
+  closedAt: '2025-02-14T13:58:22Z'
+  createdAt: '2024-12-04T04:12:44Z'
+  files:
+  - path: CONTRIBUTORS.yaml
+    additions: 10
+    deletions: 0
+  - path: ORGANISATIONS.yaml
+    additions: 8
+    deletions: 0
+  headRefName: patch-1
+  headRepository:
+    id: R_kgDONYouxQ
+    name: training-material
+  labels:
+  - template-and-tools
+  - spoc-cofest
+  mergedAt: '2025-02-14T13:58:22Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: MarisaJL
+    state: DISMISSED
+    submittedAt: '2024-12-06T14:03:24Z'
+    reactionGroups: []
+  - author:
+      login: MarisaJL
+    state: COMMENTED
+    submittedAt: '2024-12-06T14:13:33Z'
+    reactionGroups: []
+  - author:
+      login: MarisaJL
+    state: COMMENTED
+    submittedAt: '2024-12-06T14:13:40Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: DISMISSED
+    submittedAt: '2025-02-14T13:43:27Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: DISMISSED
+    submittedAt: '2025-02-14T13:51:38Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T13:52:31Z'
+    reactionGroups: []
+  state: MERGED
+  title: Add MD-Chem as contributor
+  updatedAt: '2025-02-14T13:58:23Z'
+  url: https://github.com/galaxyproject/training-material/pull/5595
+5597:
+  author:
+    id: MDQ6VXNlcjU5NDA0OTI4
+    is_bot: false
+    login: MD-Chem
+    name: Mohua
+  closedAt: '2025-02-14T13:52:24Z'
+  createdAt: '2024-12-04T04:54:39Z'
+  files:
+  - path: topics/single-cell/tutorials/scrna-umis/tutorial.md
+    additions: 2
+    deletions: 2
+  headRefName: patch-2
+  headRepository:
+    id: R_kgDONYouxQ
+    name: training-material
+  labels:
+  - single-cell
+  - spoc-cofest
+  mergedAt: '2025-02-14T13:52:24Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2024-12-04T08:57:21Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2024-12-04T09:09:12Z'
+    reactionGroups: []
+  - author:
+      login: MD-Chem
+    state: COMMENTED
+    submittedAt: '2024-12-05T11:18:40Z'
+    reactionGroups: []
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2024-12-06T10:22:21Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T13:27:47Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: DISMISSED
+    submittedAt: '2025-02-14T13:28:08Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T13:46:45Z'
+    reactionGroups: []
+  state: MERGED
+  title: Added question mark
+  updatedAt: '2025-02-14T13:52:24Z'
+  url: https://github.com/galaxyproject/training-material/pull/5597
+5761:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-14T13:42:50Z'
+  createdAt: '2025-02-13T09:36:19Z'
+  files:
+  - path: topics/single-cell/metadata.yaml
+    additions: 1
+    deletions: 2
+  - path: topics/single-cell/tutorials/scrna-preprocessing/tutorial.md
+    additions: 3
+    deletions: 1
+  - path: topics/single-cell/tutorials/scrna-raceid/tutorial.md
+    additions: 3
+    deletions: 1
+  - path: topics/single-cell/tutorials/scrna-scater-qc/tutorial.md
+    additions: 2
+    deletions: 1
+  headRefName: reorder_tutorials
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkyMzQwODM1MDM=
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-14T13:42:50Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T13:25:36Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T13:42:49Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update tutorial listing and archive tutorials
+  updatedAt: '2025-02-14T13:42:50Z'
+  url: https://github.com/galaxyproject/training-material/pull/5761
+5776:
+  author:
+    id: MDQ6VXNlcjI1NzcwMzQ4
+    is_bot: false
+    login: PhilReedData
+    name: Phil Reed
+  closedAt: '2025-02-14T13:42:03Z'
+  createdAt: '2025-02-14T09:42:52Z'
+  files:
+  - path: faqs/gtn/contributors_github_interface.md
+    additions: 0
+    deletions: 10
+  - path: faqs/gtn/gtn_minor_correction.md
+    additions: 68
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-01.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-02.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-04.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-06.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-07.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-08.png
+    additions: 0
+    deletions: 0
+  - path: faqs/gtn/images/minor-fix-11.png
+    additions: 0
+    deletions: 0
+  headRefName: faq-minor-correction
+  headRepository:
+    id: R_kgDON4gnTw
+    name: training-material
+  labels:
+  - faqs
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-14T13:42:03Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: nomadscientist
+    state: DISMISSED
+    submittedAt: '2025-02-14T09:43:53Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T10:52:37Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T13:04:03Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T13:13:02Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T13:23:57Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T13:35:33Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T13:41:54Z'
+    reactionGroups: []
+  state: MERGED
+  title: 'New FAQ post: Making a minor correction to any training material'
+  updatedAt: '2025-02-14T13:42:21Z'
+  url: https://github.com/galaxyproject/training-material/pull/5776
+5598:
+  author:
+    id: MDQ6VXNlcjcxNjU1ODE0
+    is_bot: false
+    login: adya29
+    name: ''
+  closedAt: '2025-02-14T13:35:18Z'
+  createdAt: '2024-12-04T04:54:56Z'
+  files:
+  - path: topics/single-cell/tutorials/scrna-umis/tutorial.md
+    additions: 1
+    deletions: 1
+  headRefName: patch-2
+  headRepository:
+    id: R_kgDONYokVQ
+    name: training-material
+  labels:
+  - single-cell
+  - spoc-cofest
+  mergedAt: '2025-02-14T13:35:18Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2024-12-04T09:06:05Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2024-12-04T09:09:52Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T13:29:25Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T13:29:52Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update tutorial.md
+  updatedAt: '2025-02-14T13:35:18Z'
+  url: https://github.com/galaxyproject/training-material/pull/5598
+5778:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-14T11:24:17Z'
+  createdAt: '2025-02-14T11:12:33Z'
+  files:
+  - path: topics/single-cell/tutorials/scrna-case-cell-annotation/slides.html
+    additions: 7
+    deletions: 0
+  headRefName: update_cell_annotation
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkyMzQwODM1MDM=
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-14T11:24:17Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T11:19:10Z'
+    reactionGroups: []
+  state: MERGED
+  title: add follow up training to cell annotation slide deck
+  updatedAt: '2025-02-14T11:24:17Z'
+  url: https://github.com/galaxyproject/training-material/pull/5778
+5777:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-14T11:22:30Z'
+  createdAt: '2025-02-14T10:24:14Z'
+  files:
+  - path: news/_posts/2025-02-14-spoc_hdr_cofest.md
+    additions: 23
+    deletions: 0
+  - path: news/images/2024-02-14-spoc_maintainer_updates.png
+    additions: 0
+    deletions: 0
+  - path: news/images/2025-02-14-spoc-hdr-cofest_outputs.png
+    additions: 0
+    deletions: 0
+  headRefName: hdr_cofest_blog
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkyMzQwODM1MDM=
+    name: training-material
+  labels:
+  - news
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-14T11:22:29Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups:
+  - content: HOORAY
+    users:
+      totalCount: 1
+  reviews:
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T10:47:45Z'
+    reactionGroups: []
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2025-02-14T11:16:46Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T11:18:05Z'
+    reactionGroups: []
+  state: MERGED
+  title: Hdr cofest blog
+  updatedAt: '2025-02-14T11:22:30Z'
+  url: https://github.com/galaxyproject/training-material/pull/5777
+5771:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-13T15:28:01Z'
+  createdAt: '2025-02-13T15:13:14Z'
+  files:
+  - path: topics/introduction/tutorials/galaxy-intro-short/tutorial.md
+    additions: 1
+    deletions: 0
+  headRefName: nomadscientist-patch-10
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - introduction
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T15:28:01Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-13T15:22:35Z'
+    reactionGroups: []
+  state: MERGED
+  title: Giving Phil credit for edits
+  updatedAt: '2025-02-14T11:14:09Z'
+  url: https://github.com/galaxyproject/training-material/pull/5771
+5773:
+  author:
+    id: MDQ6VXNlcjU4NTI0NDYw
+    is_bot: false
+    login: hexhowells
+    name: Morgan
+  closedAt: '2025-02-14T10:49:58Z'
+  createdAt: '2025-02-13T16:21:22Z'
+  files:
+  - path: topics/single-cell/tutorials/bulk-music/tutorial.md
+    additions: 2
+    deletions: 0
+  headRefName: hexhowells-patch-1
+  headRepository:
+    id: R_kgDOJvXBYQ
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-14T10:49:58Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: nomadscientist
+    state: APPROVED
+    submittedAt: '2025-02-13T17:18:56Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update contributors
+  updatedAt: '2025-02-14T11:13:56Z'
+  url: https://github.com/galaxyproject/training-material/pull/5773
+5774:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-14T10:43:18Z'
+  createdAt: '2025-02-13T16:32:58Z'
+  files:
+  - path: ".github/workflows/ci.yml"
+    additions: 3
+    deletions: 3
+  - path: Gemfile
+    additions: 2
+    deletions: 2
+  - path: Gemfile.lock
+    additions: 41
+    deletions: 10
+  - path: topics/single-cell/tutorials/scrna-umis/tutorial.md
+    additions: 12
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/index.md
+    additions: 3
+    deletions: 0
+  headRefName: nomadscientist-patch-10
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - template-and-tools
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-14T10:43:18Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-14T10:43:17Z'
+    reactionGroups: []
+  state: MERGED
+  title: Add metadata to understanding barcodes
+  updatedAt: '2025-02-14T10:43:18Z'
+  url: https://github.com/galaxyproject/training-material/pull/5774
+5750:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-12T15:28:08Z'
+  createdAt: '2025-02-12T15:22:29Z'
+  files:
+  - path: topics/introduction/tutorials/galaxy-intro-short/tutorial.md
+    additions: 1
+    deletions: 1
+  headRefName: nomadscientist-patch-9
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - introduction
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-12T15:28:08Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-12T15:26:18Z'
+    reactionGroups: []
+  state: MERGED
+  title: Fix wording
+  updatedAt: '2025-02-13T16:51:50Z'
+  url: https://github.com/galaxyproject/training-material/pull/5750
+5772:
+  author:
+    id: MDQ6VXNlcjIyNzQ1Nzg0
+    is_bot: false
+    login: DuckWhistle
+    name: Duck Whistle
+  closedAt: '2025-02-13T15:27:38Z'
+  createdAt: '2025-02-13T15:18:13Z'
+  files:
+  - path: learning-pathways/intro-to-galaxy-and-genomics.md
+    additions: 1
+    deletions: 1
+  headRefName: patch-2
+  headRepository:
+    id: R_kgDON5Cb3A
+    name: training-material
+  labels:
+  - template-and-tools
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T15:27:38Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: nomadscientist
+    state: APPROVED
+    submittedAt: '2025-02-13T15:19:24Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-13T15:23:32Z'
+    reactionGroups: []
+  state: MERGED
+  title: Fixed typo in tag 'introcuction'
+  updatedAt: '2025-02-13T16:51:24Z'
+  url: https://github.com/galaxyproject/training-material/pull/5772
+5752:
+  author:
+    id: MDQ6VXNlcjU4NTI0NDYw
+    is_bot: false
+    login: hexhowells
+    name: Morgan
+  closedAt: '2025-02-13T15:21:29Z'
+  createdAt: '2025-02-12T17:00:50Z'
+  files:
+  - path: topics/single-cell/tutorials/scrna-umis/tutorial.md
+    additions: 13
+    deletions: 11
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/Understanding-Barcodes-tests.yml
+    additions: 53
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/Understanding-Barcodes.ga
+    additions: 237
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/test-data/Reads_filter_list.tabular
+    additions: 4
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/test-data/html_file_forward.html
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/test-data/html_file_reverse.html
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/test-data/out_paired_collection_forward.fastqsanger
+    additions: 16
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/test-data/out_paired_collection_reverse.fastqsanger
+    additions: 16
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/test-data/output_pos_forward.fastqsanger
+    additions: 16
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/test-data/output_pos_reverse.fastqsanger
+    additions: 16
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/test-data/text_file_forward.txt
+    additions: 3656
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-umis/workflows/test-data/text_file_reverse.txt
+    additions: 8308
+    deletions: 0
+  headRefName: barcodes-tool-updates
+  headRepository:
+    id: R_kgDOJvXBYQ
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T15:21:29Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-02-13T09:52:51Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-02-13T09:53:23Z'
+    reactionGroups: []
+  - author:
+      login: hexhowells
+    state: COMMENTED
+    submittedAt: '2025-02-13T10:11:10Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-13T15:15:40Z'
+    reactionGroups: []
+  state: MERGED
+  title: 'Understanding Barcodes: Update workflows/tools'
+  updatedAt: '2025-02-13T15:21:29Z'
+  url: https://github.com/galaxyproject/training-material/pull/5752
+5769:
+  author:
+    id: MDQ6VXNlcjI1NzcwMzQ4
+    is_bot: false
+    login: PhilReedData
+    name: Phil Reed
+  closedAt: '2025-02-13T14:08:21Z'
+  createdAt: '2025-02-13T13:00:23Z'
+  files:
+  - path: topics/introduction/images/upload-box.png
+    additions: 0
+    deletions: 0
+  - path: topics/introduction/tutorials/galaxy-intro-short/tutorial.md
+    additions: 35
+    deletions: 35
+  headRefName: spoc-improve-intro
+  headRepository:
+    id: R_kgDON4gnTw
+    name: training-material
+  labels:
+  - introduction
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T14:08:21Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-13T13:13:18Z'
+    reactionGroups:
+    - content: HEART
+      users:
+        totalCount: 1
+  - author:
+      login: PhilReedData
+    state: COMMENTED
+    submittedAt: '2025-02-13T14:00:16Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-02-13T14:08:17Z'
+    reactionGroups: []
+  state: MERGED
+  title: SPOC improve text and images in short intro
+  updatedAt: '2025-02-13T15:11:17Z'
+  url: https://github.com/galaxyproject/training-material/pull/5769
+5767:
+  author:
+    id: MDQ6VXNlcjQ5MjQ2MjM=
+    is_bot: false
+    login: nsoranzo
+    name: Nicola Soranzo
+  closedAt: '2025-02-13T14:09:21Z'
+  createdAt: '2025-02-13T12:11:10Z'
+  files:
+  - path: Makefile
+    additions: 1
+    deletions: 1
+  headRefName: fix_create-env
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnk3OTEzMTEzMQ==
+    name: training-material
+  labels:
+  - template-and-tools
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T14:09:21Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: nomadscientist
+    state: APPROVED
+    submittedAt: '2025-02-13T12:40:09Z'
+    reactionGroups: []
+  state: MERGED
+  title: Fix ``create-env`` Make command
+  updatedAt: '2025-02-13T14:11:43Z'
+  url: https://github.com/galaxyproject/training-material/pull/5767
+5768:
+  author:
+    id: MDQ6VXNlcjQ5MjQ2MjM=
+    is_bot: false
+    login: nsoranzo
+    name: Nicola Soranzo
+  closedAt: '2025-02-13T14:11:24Z'
+  createdAt: '2025-02-13T12:45:33Z'
+  files:
+  - path: topics/single-cell/tutorials/GO-enrichment/tutorial.md
+    additions: 7
+    deletions: 3
+  headRefName: sc_GO-enrichment
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnk3OTEzMTEzMQ==
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T14:11:24Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ5MjQ2MjM=
+    is_bot: false
+    login: nsoranzo
+    name: Nicola Soranzo
+  reactionGroups: []
+  reviews:
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2025-02-13T12:54:39Z'
+    reactionGroups: []
+  - author:
+      login: nomadscientist
+    state: APPROVED
+    submittedAt: '2025-02-13T14:09:24Z'
+    reactionGroups: []
+  state: MERGED
+  title: Small fixes to the single-cell GO Enrichement tuto
+  updatedAt: '2025-02-13T14:11:24Z'
+  url: https://github.com/galaxyproject/training-material/pull/5768
+5763:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-13T13:14:21Z'
+  createdAt: '2025-02-13T10:37:10Z'
+  files:
+  - path: topics/single-cell/faqs/single_cell_omics.md
+    additions: 1
+    deletions: 1
+  headRefName: update_lab_faq
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkyMzQwODM1MDM=
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T13:14:21Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-02-13T10:49:50Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-02-13T10:49:59Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-13T13:14:20Z'
+    reactionGroups: []
+  state: MERGED
+  title: fix text in FAQ
+  updatedAt: '2025-02-13T13:14:22Z'
+  url: https://github.com/galaxyproject/training-material/pull/5763
+5765:
+  author:
+    id: MDQ6VXNlcjU4NTI0NDYw
+    is_bot: false
+    login: hexhowells
+    name: Morgan
+  closedAt: '2025-02-13T12:34:36Z'
+  createdAt: '2025-02-13T11:16:34Z'
+  files:
+  - path: topics/single-cell/tutorials/scrna-preprocessing-tenx/tutorial.md
+    additions: 2
+    deletions: 2
+  - path: topics/single-cell/tutorials/scrna-preprocessing-tenx/workflows/scRNA-seq-Preprocessing-TenX.ga
+    additions: 6
+    deletions: 6
+  headRefName: scrna-10x-tool-updates
+  headRepository:
+    id: R_kgDOJvXBYQ
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T12:34:36Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: nomadscientist
+    state: APPROVED
+    submittedAt: '2025-02-13T12:34:06Z'
+    reactionGroups: []
+  state: MERGED
+  title: Scrna Pre-Processing 10x - tool updates
+  updatedAt: '2025-02-13T12:34:37Z'
+  url: https://github.com/galaxyproject/training-material/pull/5765
+5766:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-13T11:58:08Z'
+  createdAt: '2025-02-13T11:37:53Z'
+  files:
+  - path: topics/single-cell/tutorials/pseudobulk-analysis/tutorial.md
+    additions: 9
+    deletions: 2
+  - path: topics/single-cell/tutorials/scrna-intro/slides.html
+    additions: 0
+    deletions: 1
+  - path: topics/single-cell/tutorials/scrna-plates-batches-barcodes/slides.html
+    additions: 0
+    deletions: 1
+  headRefName: final_x_addressing
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkyMzQwODM1MDM=
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T11:58:08Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-13T11:58:07Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update metadata for single-cell materials
+  updatedAt: '2025-02-13T11:58:09Z'
+  url: https://github.com/galaxyproject/training-material/pull/5766
+5759:
+  author:
+    id: MDQ6VXNlcjI1NzcwMzQ4
+    is_bot: false
+    login: PhilReedData
+    name: Phil Reed
+  closedAt: '2025-02-13T10:25:07Z'
+  createdAt: '2025-02-13T09:29:19Z'
+  files:
+  - path: topics/contributing/faqs/github-fork-sync.md
+    additions: 1
+    deletions: 1
+  headRefName: patch-4
+  headRepository:
+    id: R_kgDON4gnTw
+    name: training-material
+  labels:
+  - contributing
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T10:25:07Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-13T10:13:59Z'
+    reactionGroups: []
+  state: MERGED
+  title: Correct underscore to hyphen in repo URL
+  updatedAt: '2025-02-13T10:25:08Z'
+  url: https://github.com/galaxyproject/training-material/pull/5759
+5758:
+  author:
+    id: MDQ6VXNlcjI1NzcwMzQ4
+    is_bot: false
+    login: PhilReedData
+    name: Phil Reed
+  closedAt: '2025-02-13T09:54:19Z'
+  createdAt: '2025-02-13T09:27:04Z'
+  files:
+  - path: topics/contributing/faqs/github-fork-master-main.md
+    additions: 1
+    deletions: 1
+  headRefName: patch-3
+  headRepository:
+    id: R_kgDON4gnTw
+    name: training-material
+  labels:
+  - contributing
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T09:54:19Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-13T09:54:12Z'
+    reactionGroups: []
+  state: MERGED
+  title: Correct underscore to hyphen in repo URL
+  updatedAt: '2025-02-13T09:54:24Z'
+  url: https://github.com/galaxyproject/training-material/pull/5758
+5753:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-13T09:44:23Z'
+  createdAt: '2025-02-12T17:07:26Z'
+  files:
+  - path: topics/single-cell/tutorials/GO-enrichment/tutorial.md
+    additions: 19
+    deletions: 12
+  - path: topics/single-cell/tutorials/bulk-deconvolution-evaluate/tutorial.md
+    additions: 10
+    deletions: 4
+  - path: topics/single-cell/tutorials/bulk-music-4-compare/tutorial.md
+    additions: 7
+    deletions: 0
+  - path: topics/single-cell/tutorials/bulk-music/tutorial.md
+    additions: 5
+    deletions: 3
+  - path: topics/single-cell/tutorials/scanpy_parameter_iterator/tutorial.md
+    additions: 7
+    deletions: 0
+  - path: topics/single-cell/tutorials/scatac-preprocessing-tenx/tutorial.md
+    additions: 2
+    deletions: 1
+  - path: topics/single-cell/tutorials/scatac-standard-processing-snapatac2/tutorial.md
+    additions: 14
+    deletions: 8
+  - path: topics/single-cell/tutorials/scrna-case-cell-annotation/slides.html
+    additions: 4
+    deletions: 2
+  - path: topics/single-cell/tutorials/scrna-case_FilterPlotandExploreRStudio/tutorial.md
+    additions: 7
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-case_FilterPlotandExplore_SeuratTools/tutorial.md
+    additions: 8
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-case_JUPYTER-trajectories/tutorial.md
+    additions: 8
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.md
+    additions: 8
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-case_monocle3-rstudio/tutorial.md
+    additions: 7
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.md
+    additions: 8
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-case_trajectories/tutorial.md
+    additions: 10
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-data-formats/slides.html
+    additions: 12
+    deletions: 4
+  - path: topics/single-cell/tutorials/scrna-data-ingest/tutorial.md
+    additions: 59
+    deletions: 50
+  - path: topics/single-cell/tutorials/scrna-intro/slides.html
+    additions: 5
+    deletions: 3
+  - path: topics/single-cell/tutorials/scrna-ncbi-anndata/tutorial.md
+    additions: 10
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-plant/tutorial.md
+    additions: 14
+    deletions: 5
+  - path: topics/single-cell/tutorials/scrna-plates-batches-barcodes/slides.html
+    additions: 18
+    deletions: 7
+  - path: topics/single-cell/tutorials/scrna-preprocessing-tenx/tutorial.md
+    additions: 8
+    deletions: 6
+  - path: topics/single-cell/tutorials/scrna-preprocessing/tutorial.md
+    additions: 6
+    deletions: 10
+  - path: topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.md
+    additions: 17
+    deletions: 6
+  - path: topics/single-cell/tutorials/scrna-seurat-pbmc3k/tutorial.md
+    additions: 8
+    deletions: 0
+  - path: topics/single-cell/tutorials/scrna-trajectories/slides.html
+    additions: 14
+    deletions: 2
+  headRefName: spoc-attack-maintainer-red-x
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkyMzQwODM1MDM=
+    name: training-material
+  labels:
+  - single-cell
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-13T09:44:23Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-02-13T08:17:36Z'
+    reactionGroups: []
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2025-02-13T09:03:59Z'
+    reactionGroups: []
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2025-02-13T09:04:16Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-02-13T09:44:14Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-13T09:44:21Z'
+    reactionGroups: []
+  state: MERGED
+  title: Addressing maintainer page X in SPOC
+  updatedAt: '2025-02-13T09:44:23Z'
+  url: https://github.com/galaxyproject/training-material/pull/5753
+5754:
+  author:
+    id: MDQ6VXNlcjI1NzcwMzQ4
+    is_bot: false
+    login: PhilReedData
+    name: Phil Reed
+  closedAt: '2025-02-12T17:30:30Z'
+  createdAt: '2025-02-12T17:09:00Z'
+  files:
+  - path: CONTRIBUTORS.yaml
+    additions: 10
+    deletions: 0
+  headRefName: patch-2
+  headRepository:
+    id: R_kgDON4gnTw
+    name: training-material
+  labels:
+  - template-and-tools
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-12T17:30:30Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: nomadscientist
+    state: APPROVED
+    submittedAt: '2025-02-12T17:30:29Z'
+    reactionGroups: []
+  state: MERGED
+  title: Add philreeddata as contributor
+  updatedAt: '2025-02-13T09:35:24Z'
+  url: https://github.com/galaxyproject/training-material/pull/5754
+5617:
+  author:
+    id: U_kgDOB07m_g
+    is_bot: false
+    login: dianichj
+    name: diana chJ
+  closedAt: '2025-02-12T16:29:16Z'
+  createdAt: '2024-12-06T20:00:53Z'
+  files:
+  - path: topics/single-cell/images/pseudobulk-analysis/Decoupler_Filter_by_Expression_Plot.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/Decoupler_Pseudobulk_Plot.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/VolcanoPlot.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/Volcano_plot_tcells.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/bcvplot.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/mdplot_normal-COVID_19.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/mdsplot_disease.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/pseudobulk-analysis/qlplot.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/tutorials/pseudobulk-analysis/data-library.yaml
+    additions: 19
+    deletions: 0
+  - path: topics/single-cell/tutorials/pseudobulk-analysis/faqs/index.md
+    additions: 3
+    deletions: 0
+  - path: topics/single-cell/tutorials/pseudobulk-analysis/tutorial.bib
+    additions: 98
+    deletions: 0
+  - path: topics/single-cell/tutorials/pseudobulk-analysis/tutorial.md
+    additions: 475
+    deletions: 0
+  - path: topics/single-cell/tutorials/pseudobulk-analysis/workflows/index.md
+    additions: 3
+    deletions: 0
+  - path: topics/single-cell/tutorials/pseudobulk-analysis/workflows/pseudo-bulk_edgeR-tests.yml
+    additions: 50
+    deletions: 0
+  - path: topics/single-cell/tutorials/pseudobulk-analysis/workflows/pseudo-bulk_edgeR.ga
+    additions: 1021
+    deletions: 0
+  headRefName: pseudobulk-analysis
+  headRepository:
+    id: R_kgDOMeVuBw
+    name: training-material
+  labels:
+  - single-cell
+  mergedAt: '2025-02-12T16:29:16Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups:
+  - content: HOORAY
+    users:
+      totalCount: 2
+  - content: ROCKET
+    users:
+      totalCount: 1
+  reviews:
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-01-17T14:35:31Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-01-17T15:16:39Z'
+    reactionGroups:
+    - content: HEART
+      users:
+        totalCount: 1
+  - author:
+      login: pavanvidem
+    state: COMMENTED
+    submittedAt: '2025-01-28T14:45:53Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-01-29T15:59:24Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-01-29T16:01:16Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: DISMISSED
+    submittedAt: '2025-02-08T15:03:57Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-10T15:57:14Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-12T07:26:44Z'
+    reactionGroups:
+    - content: HEART
+      users:
+        totalCount: 1
+  state: MERGED
+  title: Pseudobulk Analysis with Decoupler and edgeR
+  updatedAt: '2025-02-12T16:29:16Z'
+  url: https://github.com/galaxyproject/training-material/pull/5617
+5748:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-12T14:52:57Z'
+  createdAt: '2025-02-12T14:38:18Z'
+  files:
+  - path: topics/introduction/tutorials/galaxy-intro-short/tutorial.md
+    additions: 7
+    deletions: 1
+  headRefName: intro_to-galaxy-register
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - introduction
+  - spoc-cofest
+  - Spocathon-HDR-ELIXIR
+  mergedAt: '2025-02-12T14:52:57Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  reactionGroups: []
+  reviews:
+  - author:
+      login: hexhowells
+    state: APPROVED
+    submittedAt: '2025-02-12T14:52:55Z'
+    reactionGroups: []
+  state: MERGED
+  title: Adding instructions to register
+  updatedAt: '2025-02-12T14:52:57Z'
+  url: https://github.com/galaxyproject/training-material/pull/5748
+5794:
+  author:
+    id: MDQ6VXNlcjIzODc1NQ==
+    is_bot: false
+    login: abretaud
+    name: Anthony Bretaudeau
+  closedAt: '2025-02-21T17:42:10Z'
+  createdAt: '2025-02-21T17:01:55Z'
+  files:
+  - path: CONTRIBUTORS.yaml
+    additions: 2
+    deletions: 2
+  headRefName: abretaud-patch-1
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - template-and-tools
+  mergedAt: '2025-02-21T17:42:10Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-21T17:42:03Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update abretaud infos
+  updatedAt: '2025-02-21T17:42:14Z'
+  url: https://github.com/galaxyproject/training-material/pull/5794
+5790:
+  author:
+    is_bot: true
+    login: app/dependabot
+  closedAt: '2025-02-20T11:39:12Z'
+  createdAt: '2025-02-19T13:57:41Z'
+  files:
+  - path: Gemfile.lock
+    additions: 2
+    deletions: 2
+  headRefName: dependabot/bundler/nokogiri-1.18.3
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - template-and-tools
+  - dependencies
+  - ruby
+  mergedAt: '2025-02-20T11:39:12Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews: []
+  state: MERGED
+  title: Bump nokogiri from 1.18.2 to 1.18.3
+  updatedAt: '2025-02-20T11:39:20Z'
+  url: https://github.com/galaxyproject/training-material/pull/5790
+5791:
+  author:
+    id: MDQ6VXNlcjE1NjEzMTY5
+    is_bot: false
+    login: teresa-m
+    name: ''
+  closedAt: '2025-02-20T11:38:43Z'
+  createdAt: '2025-02-19T14:51:08Z'
+  files:
+  - path: news/images/GTA2025_call_trainer_banner.png
+    additions: 0
+    deletions: 0
+  headRefName: update_GTA_news
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkxOTUzODU1NDA=
+    name: training-material
+  labels:
+  - news
+  mergedAt: '2025-02-20T11:38:43Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-20T11:38:36Z'
+    reactionGroups: []
+  state: MERGED
+  title: 'Update gta banner in news for call for trainer '
+  updatedAt: '2025-02-20T11:38:53Z'
+  url: https://github.com/galaxyproject/training-material/pull/5791
+5722:
+  author:
+    id: MDQ6VXNlcjE1NjEzMTY5
+    is_bot: false
+    login: teresa-m
+    name: ''
+  closedAt: '2025-02-19T15:13:02Z'
+  createdAt: '2025-01-29T15:58:32Z'
+  files:
+  - path: _includes/contributor-list2.html
+    additions: 10
+    deletions: 10
+  - path: _layouts/testing_tutorial.html
+    additions: 5
+    deletions: 0
+  - path: _layouts/testing_tutorial_slides.html
+    additions: 4
+    deletions: 0
+  - path: _layouts/tutorial_hands_on.html
+    additions: 23
+    deletions: 14
+  - path: _layouts/tutorial_slides.html
+    additions: 2
+    deletions: 2
+  - path: _plugins/gtn/boxify.rb
+    additions: 7
+    deletions: 46
+  - path: _plugins/snippet.rb
+    additions: 1
+    deletions: 1
+  - path: metadata/lang/de.yml
+    additions: 110
+    deletions: 0
+  - path: metadata/lang/en.yml
+    additions: 114
+    deletions: 0
+  - path: metadata/lang/es.yml
+    additions: 36
+    deletions: 5
+  - path: metadata/lang/fr.yml
+    additions: 38
+    deletions: 6
+  - path: testpages/slides.md
+    additions: 44
+    deletions: 0
+  - path: testpages/slides_DE.md
+    additions: 45
+    deletions: 0
+  - path: testpages/slides_ES.md
+    additions: 44
+    deletions: 0
+  - path: testpages/slides_FR.md
+    additions: 44
+    deletions: 0
+  - path: testpages/test_locale.md
+    additions: 93
+    deletions: 0
+  - path: testpages/tutorial.md
+    additions: 59
+    deletions: 0
+  - path: testpages/tutorial_DE.md
+    additions: 57
+    deletions: 0
+  - path: testpages/tutorial_ES.md
+    additions: 58
+    deletions: 0
+  - path: testpages/tutorial_FR.md
+    additions: 58
+    deletions: 0
+  headRefName: german_translations
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkxOTUzODU1NDA=
+    name: training-material
+  labels:
+  - template-and-tools
+  mergedAt: '2025-02-19T15:13:02Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-13T14:06:34Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-13T14:07:07Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-13T14:09:02Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-13T14:10:30Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-14T13:45:21Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-02-14T15:47:49Z'
+    reactionGroups: []
+  - author:
+      login: unode
+    state: COMMENTED
+    submittedAt: '2025-02-17T05:21:31Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:14:54Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:23:55Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:24:16Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:24:57Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:26:12Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:29:15Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:29:54Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:30:42Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:31:29Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:33:12Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T08:38:52Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-17T09:34:57Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-17T09:43:11Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-17T13:18:36Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T13:20:37Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T13:21:12Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T13:22:22Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T13:22:38Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T13:24:04Z'
+    reactionGroups: []
+  - author:
+      login: Marie59
+    state: COMMENTED
+    submittedAt: '2025-02-17T13:26:00Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-17T13:32:48Z'
+    reactionGroups: []
+  - author:
+      login: wm75
+    state: COMMENTED
+    submittedAt: '2025-02-17T16:13:51Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-17T16:32:10Z'
+    reactionGroups: []
+  - author:
+      login: teresa-m
+    state: COMMENTED
+    submittedAt: '2025-02-17T18:45:28Z'
+    reactionGroups: []
+  - author:
+      login: teresa-m
+    state: COMMENTED
+    submittedAt: '2025-02-17T18:46:14Z'
+    reactionGroups: []
+  - author:
+      login: teresa-m
+    state: COMMENTED
+    submittedAt: '2025-02-17T18:46:27Z'
+    reactionGroups: []
+  - author:
+      login: teresa-m
+    state: COMMENTED
+    submittedAt: '2025-02-17T18:46:49Z'
+    reactionGroups: []
+  - author:
+      login: teresa-m
+    state: COMMENTED
+    submittedAt: '2025-02-17T18:46:55Z'
+    reactionGroups: []
+  - author:
+      login: teresa-m
+    state: COMMENTED
+    submittedAt: '2025-02-17T18:47:01Z'
+    reactionGroups: []
+  - author:
+      login: teresa-m
+    state: COMMENTED
+    submittedAt: '2025-02-17T18:47:07Z'
+    reactionGroups: []
+  - author:
+      login: teresa-m
+    state: COMMENTED
+    submittedAt: '2025-02-17T18:47:11Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-19T15:12:33Z'
+    reactionGroups: []
+  state: MERGED
+  title: "[WIP] de.yml for german translations"
+  updatedAt: '2025-02-19T15:15:46Z'
+  url: https://github.com/galaxyproject/training-material/pull/5722
+5789:
+  author:
+    id: MDQ6VXNlcjE1NjEzMTY5
+    is_bot: false
+    login: teresa-m
+    name: ''
+  closedAt: '2025-02-19T11:28:51Z'
+  createdAt: '2025-02-19T10:40:45Z'
+  files:
+  - path: events/2025-03-06-biont-fair
+    additions: 17
+    deletions: 0
+  headRefName: biont_workshop
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkxOTUzODU1NDA=
+    name: training-material
+  labels:
+  - template-and-tools
+  mergedAt: '2025-02-19T11:28:51Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-19T11:28:42Z'
+    reactionGroups: []
+  state: MERGED
+  title: added biont fair workshop as an external event
+  updatedAt: '2025-02-19T12:24:09Z'
+  url: https://github.com/galaxyproject/training-material/pull/5789
+5788:
+  author:
+    id: MDQ6VXNlcjE1NjEzMTY5
+    is_bot: false
+    login: teresa-m
+    name: ''
+  closedAt: '2025-02-19T11:32:50Z'
+  createdAt: '2025-02-18T21:23:57Z'
+  files:
+  - path: news/_posts/2025-02-14-gtn2025-call-trainer.md
+    additions: 41
+    deletions: 0
+  - path: news/images/GTA2025_call_trainer_banner.png
+    additions: 0
+    deletions: 0
+  headRefName: gta2025_trainer
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkxOTUzODU1NDA=
+    name: training-material
+  labels:
+  - news
+  mergedAt: '2025-02-19T11:32:50Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-19T11:26:59Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-19T11:27:59Z'
+    reactionGroups: []
+  state: MERGED
+  title: Gta2025 call for trainer news
+  updatedAt: '2025-02-19T11:32:50Z'
+  url: https://github.com/galaxyproject/training-material/pull/5788
+5787:
+  author:
+    id: U_kgDOB07m_g
+    is_bot: false
+    login: dianichj
+    name: diana chJ
+  closedAt: '2025-02-18T20:59:13Z'
+  createdAt: '2025-02-18T14:19:27Z'
+  files:
+  - path: events/2025-05-12-galaxy-academy-2025.md
+    additions: 2
+    deletions: 2
+  - path: events/images/Galaxy_GTA2025_Transparent.png
+    additions: 0
+    deletions: 0
+  headRefName: main
+  headRepository:
+    id: R_kgDOMeVuBw
+    name: training-material
+  labels:
+  - template-and-tools
+  mergedAt: '2025-02-18T20:59:13Z'
+  mergedBy:
+    id: MDQ6VXNlcjE1NjEzMTY5
+    is_bot: false
+    login: teresa-m
+    name: ''
+  reactionGroups: []
+  reviews:
+  - author:
+      login: teresa-m
+    state: APPROVED
+    submittedAt: '2025-02-18T20:58:53Z'
+    reactionGroups:
+    - content: HOORAY
+      users:
+        totalCount: 1
+    - content: HEART
+      users:
+        totalCount: 1
+  state: MERGED
+  title: Update GTA2025 Logo in Events Post
+  updatedAt: '2025-02-18T20:59:14Z'
+  url: https://github.com/galaxyproject/training-material/pull/5787
+5104:
+  author:
+    id: MDQ6VXNlcjMwNDA0MDg2
+    is_bot: false
+    login: lldelisle
+    name: Lucille Delisle
+  closedAt: '2025-02-17T14:24:35Z'
+  createdAt: '2024-06-29T18:04:13Z'
+  files:
+  - path: topics/epigenetics/images/cut_and_run/GATA_motif.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/adapter_content_post.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/adapter_content_pre.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/duplication_level.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/fastqc_adapter_content_plot_post.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/fastqc_adapter_content_plot_pre.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/fastqc_sequence_duplication_levels_plot.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/insert_size.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/mapping_stats.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/mark_duplicates_screen.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/mark_duplicates_transpose.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/tutorials/cut_and_run/data-library.yaml
+    additions: 18
+    deletions: 10
+  - path: topics/epigenetics/tutorials/cut_and_run/tutorial.md
+    additions: 86
+    deletions: 87
+  - path: topics/epigenetics/tutorials/cut_and_run/workflows/main_workflow-tests.yml
+    additions: 42
+    deletions: 0
+  - path: topics/epigenetics/tutorials/cut_and_run/workflows/main_workflow.ga
+    additions: 467
+    deletions: 1007
+  headRefName: edit_CUTnRUN
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkyMTQzNjUwNTI=
+    name: training-material
+  labels:
+  - epigenetics
+  mergedAt: '2025-02-17T14:24:35Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: lldelisle
+    state: COMMENTED
+    submittedAt: '2024-06-29T18:10:24Z'
+    reactionGroups: []
+  - author:
+      login: heylf
+    state: DISMISSED
+    submittedAt: '2024-12-06T13:06:17Z'
+    reactionGroups: []
+  - author:
+      login: heylf
+    state: COMMENTED
+    submittedAt: '2024-12-06T13:06:36Z'
+    reactionGroups: []
+  - author:
+      login: heylf
+    state: COMMENTED
+    submittedAt: '2024-12-06T13:07:16Z'
+    reactionGroups: []
+  - author:
+      login: heylf
+    state: COMMENTED
+    submittedAt: '2024-12-06T13:07:39Z'
+    reactionGroups: []
+  - author:
+      login: heylf
+    state: COMMENTED
+    submittedAt: '2024-12-06T13:16:15Z'
+    reactionGroups: []
+  - author:
+      login: heylf
+    state: COMMENTED
+    submittedAt: '2024-12-06T13:25:29Z'
+    reactionGroups: []
+  - author:
+      login: lldelisle
+    state: COMMENTED
+    submittedAt: '2024-12-06T14:19:43Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-17T14:17:44Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update CUT&RUN tutorial
+  updatedAt: '2025-02-17T14:24:35Z'
+  url: https://github.com/galaxyproject/training-material/pull/5104
+5786:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-17T13:28:28Z'
+  createdAt: '2025-02-17T13:09:13Z'
+  files:
+  - path: metadata/workflowhub.yml
+    additions: 4
+    deletions: 0
+  headRefName: create-pull-request/patch-1739797749
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-17T13:28:28Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-17T13:28:17Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update WorkflowHub IDs
+  updatedAt: '2025-02-17T13:28:29Z'
+  url: https://github.com/galaxyproject/training-material/pull/5786
+5782:
+  author:
+    id: MDQ6VXNlcjYxMzIyNTg=
+    is_bot: false
+    login: jdavcs
+    name: John Davis
+  closedAt: '2025-02-17T07:24:43Z'
+  createdAt: '2025-02-15T20:01:57Z'
+  files:
+  - path: topics/admin/tutorials/ansible-galaxy/tutorial.md
+    additions: 13
+    deletions: 13
+  headRefName: admin_ansgalaxy_fixraw
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkyNzYxNzI4NjU=
+    name: training-material
+  labels:
+  - bug
+  - admin
+  mergedAt: '2025-02-17T07:24:43Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-17T07:24:35Z'
+    reactionGroups: []
+  state: MERGED
+  title: 'Fix galaxy installation tutorial: add raw tags to ensure template not evaluated'
+  updatedAt: '2025-02-17T07:24:43Z'
+  url: https://github.com/galaxyproject/training-material/pull/5782
+5784:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-17T07:23:32Z'
+  createdAt: '2025-02-17T01:09:45Z'
+  files:
+  - path: metadata/shortlinks.yaml
+    additions: 9
+    deletions: 1
+  headRefName: create-pull-request/patch-1739754584
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-17T07:23:32Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-17T07:23:21Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update Persistent uniform resource locators
+  updatedAt: '2025-02-17T07:23:33Z'
+  url: https://github.com/galaxyproject/training-material/pull/5784
+5785:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-17T07:22:58Z'
+  createdAt: '2025-02-17T01:11:19Z'
+  files:
+  - path: metadata/git-mod-207b951402ec27c64c2f62aa2c083fcd6caec40e.txt
+    additions: 269
+    deletions: 0
+  - path: metadata/git-pub-207b951402ec27c64c2f62aa2c083fcd6caec40e.txt
+    additions: 88
+    deletions: 0
+  - path: metadata/github.yml
+    additions: 1589
+    deletions: 0
+  headRefName: create-pull-request/patch-1739754678
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-17T07:22:58Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-17T07:22:32Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update Cached Commit Data
+  updatedAt: '2025-02-17T07:22:58Z'
+  url: https://github.com/galaxyproject/training-material/pull/5785
+5807:
+  author:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  closedAt: '2025-02-28T17:39:38Z'
+  createdAt: '2025-02-27T16:29:27Z'
+  files:
+  - path: topics/assembly/metadata.yaml
+    additions: 0
+    deletions: 1
+  - path: topics/imaging/metadata.yaml
+    additions: 3
+    deletions: 2
+  headRefName: eboard
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - assembly
+  - imaging
+  mergedAt: '2025-02-28T17:39:38Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: APPROVED
+    submittedAt: '2025-02-28T17:39:31Z'
+    reactionGroups: []
+  state: MERGED
+  title: Updates to Editorial Boards
+  updatedAt: '2025-02-28T17:39:38Z'
+  url: https://github.com/galaxyproject/training-material/pull/5807
+5809:
+  author:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  closedAt: '2025-02-28T12:12:49Z'
+  createdAt: '2025-02-28T11:49:44Z'
+  files:
+  - path: topics/statistics/tutorials/text_mining_chinese/faqs/index.md
+    additions: 3
+    deletions: 0
+  - path: topics/statistics/tutorials/text_mining_chinese/images/Diff_WF_HTML.jpg
+    additions: 0
+    deletions: 0
+  - path: topics/statistics/tutorials/text_mining_chinese/images/Example_x_censored_Chinese_article.svg
+    additions: 222
+    deletions: 0
+  - path: topics/statistics/tutorials/text_mining_chinese/images/Wordcloud_censored_characters.png
+    additions: 0
+    deletions: 0
+  - path: topics/statistics/tutorials/text_mining_chinese/images/Workflow_Screenshot.jpg
+    additions: 0
+    deletions: 0
+  - path: topics/statistics/tutorials/text_mining_chinese/tutorial.bib
+    additions: 60
+    deletions: 0
+  - path: topics/statistics/tutorials/text_mining_chinese/tutorial.md
+    additions: 397
+    deletions: 0
+  - path: topics/statistics/tutorials/text_mining_chinese/workflows/index.md
+    additions: 3
+    deletions: 0
+  - path: topics/statistics/tutorials/text_mining_chinese/workflows/main_workflow.ga
+    additions: 1
+    deletions: 0
+  headRefName: text-mining-chinese
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - statistics
+  mergedAt: '2025-02-28T12:12:48Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-28T12:08:25Z'
+    reactionGroups: []
+  state: MERGED
+  title: Add Tutorial for Text-Mining Chinese
+  updatedAt: '2025-02-28T12:16:20Z'
+  url: https://github.com/galaxyproject/training-material/pull/5809
+5061:
+  author:
+    id: U_kgDOCinLCA
+    is_bot: false
+    login: timonschlegel
+    name: ''
+  closedAt: '2025-02-28T07:41:58Z'
+  createdAt: '2024-06-20T08:30:50Z'
+  files:
+  - path: faqs/galaxy/histories_datasets_vs_collections.md
+    additions: 1
+    deletions: 1
+  - path: topics/single-cell/images/scatac-batch-correction-snapatac2/Batch-correction-pipeline-overview.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/scatac-batch-correction-snapatac2/batch-umap-harmony-leiden.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/scatac-batch-correction-snapatac2/batch-umap-harmony-spectral.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/scatac-batch-correction-snapatac2/batch-umap-no_harmony-spectral.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/scatac-batch-correction-snapatac2/harmony-graphical-abstract.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/scatac-batch-correction-snapatac2/mnc-correct-scanorama-umap-spectral.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/scatac-batch-correction-snapatac2/mnn-graphical-abstract.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/scatac-batch-correction-snapatac2/scanorama-graphical-abstract.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/scatac-batch-correction-snapatac2/tsse-colon01-colon02.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/tutorials/scatac-batch-correction-snapatac2/data-library.yaml
+    additions: 43
+    deletions: 0
+  - path: topics/single-cell/tutorials/scatac-batch-correction-snapatac2/faqs/index.md
+    additions: 3
+    deletions: 0
+  - path: topics/single-cell/tutorials/scatac-batch-correction-snapatac2/tutorial.bib
+    additions: 111
+    deletions: 0
+  - path: topics/single-cell/tutorials/scatac-batch-correction-snapatac2/tutorial.md
+    additions: 541
+    deletions: 0
+  - path: topics/single-cell/tutorials/scatac-batch-correction-snapatac2/workflows/index.md
+    additions: 3
+    deletions: 0
+  - path: topics/single-cell/tutorials/scatac-batch-correction-snapatac2/workflows/main_workflow.ga
+    additions: 1685
+    deletions: 0
+  headRefName: snapatac-batch-correction
+  headRepository:
+    id: R_kgDOMBpsiw
+    name: training-material
+  labels:
+  - faqs
+  - single-cell
+  mergedAt: '2025-02-28T07:41:57Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2024-07-30T10:16:26Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2024-09-19T11:39:23Z'
+    reactionGroups: []
+  - author:
+      login: timonschlegel
+    state: COMMENTED
+    submittedAt: '2024-10-02T17:51:03Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T12:22:20Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T12:47:34Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T12:54:27Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:00:26Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:12:10Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:21:16Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:33:51Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:37:13Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:45:57Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:52:45Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:53:43Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:55:29Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:56:48Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:58:28Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T14:00:07Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T14:02:08Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T14:04:33Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T14:06:05Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T14:09:18Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T14:11:51Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T14:16:17Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: CHANGES_REQUESTED
+    submittedAt: '2025-02-27T14:27:25Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T14:37:33Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-27T15:51:56Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-27T16:34:39Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:23:56Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:25:24Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:26:12Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:27:33Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:28:30Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:29:10Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:30:32Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:32:51Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:34:27Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:35:16Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:36:34Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:38:46Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:39:39Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:42:04Z'
+    reactionGroups: []
+  - author:
+      login: dianichj
+    state: COMMENTED
+    submittedAt: '2025-02-27T20:43:53Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-28T07:24:16Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-28T07:39:53Z'
+    reactionGroups: []
+  state: MERGED
+  title: Add new training for scATAC-seq batch correction using SnapATAC2
+  updatedAt: '2025-02-28T08:31:19Z'
+  url: https://github.com/galaxyproject/training-material/pull/5061
+5804:
+  author:
+    id: MDQ6VXNlcjQ0NjA1NzY5
+    is_bot: false
+    login: nomadscientist
+    name: Wendi Bacon
+  closedAt: '2025-02-27T16:30:44Z'
+  createdAt: '2025-02-27T13:39:42Z'
+  files:
+  - path: faqs/galaxy/request-galaxy-tools-on-a-specific-server.md
+    additions: 1
+    deletions: 1
+  headRefName: nomadscientist-patch-11
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - faqs
+  mergedAt: '2025-02-27T16:30:44Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-27T16:30:37Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update request-galaxy-tools-on-a-specific-server.md
+  updatedAt: '2025-02-27T16:30:44Z'
+  url: https://github.com/galaxyproject/training-material/pull/5804
+5802:
+  author:
+    id: MDQ6VXNlcjE4NDI0Njc=
+    is_bot: false
+    login: bebatut
+    name: Bérénice Batut
+  closedAt: '2025-02-27T12:31:27Z'
+  createdAt: '2025-02-27T12:03:48Z'
+  files:
+  - path: metadata/shortlinks.yaml
+    additions: 1
+    deletions: 0
+  headRefName: microgalaxy-search-short-link
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - template-and-tools
+  mergedAt: '2025-02-27T12:31:27Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-27T12:31:14Z'
+    reactionGroups: []
+  state: MERGED
+  title: Add microgalaxy search short link
+  updatedAt: '2025-02-27T14:24:28Z'
+  url: https://github.com/galaxyproject/training-material/pull/5802
+5805:
+  author:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  closedAt: '2025-02-27T14:22:42Z'
+  createdAt: '2025-02-27T14:10:48Z'
+  files:
+  - path: editorial-board.md
+    additions: 22
+    deletions: 0
+  - path: topics/admin/metadata.yaml
+    additions: 0
+    deletions: 1
+  - path: topics/genome-annotation/metadata.yaml
+    additions: 0
+    deletions: 1
+  - path: topics/introduction/metadata.yaml
+    additions: 0
+    deletions: 1
+  headRefName: editorial-board-page
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - admin
+  - introduction
+  - template-and-tools
+  - genome-annotation
+  mergedAt: '2025-02-27T14:22:42Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews: []
+  state: MERGED
+  title: Editorial board page
+  updatedAt: '2025-02-27T14:22:42Z'
+  url: https://github.com/galaxyproject/training-material/pull/5805
+5604:
+  author:
+    id: MDQ6VXNlcjU5NDA0OTI4
+    is_bot: false
+    login: MD-Chem
+    name: Mohua
+  closedAt: '2025-02-27T13:17:13Z'
+  createdAt: '2024-12-06T05:06:34Z'
+  files:
+  - path: topics/single-cell/tutorials/scrna-case-cell-annotation/slides.html
+    additions: 43
+    deletions: 10
+  headRefName: main
+  headRepository:
+    id: R_kgDONYouxQ
+    name: training-material
+  labels:
+  - single-cell
+  - spoc-cofest
+  mergedAt: '2025-02-27T13:17:13Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: MarisaJL
+    state: COMMENTED
+    submittedAt: '2024-12-06T12:53:32Z'
+    reactionGroups: []
+  - author:
+      login: MarisaJL
+    state: COMMENTED
+    submittedAt: '2024-12-06T12:57:14Z'
+    reactionGroups: []
+  - author:
+      login: MarisaJL
+    state: COMMENTED
+    submittedAt: '2024-12-06T13:00:22Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-13T15:39:08Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-27T13:11:30Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-27T13:12:18Z'
+    reactionGroups: []
+  state: MERGED
+  title: Edited training material "Automated Cell Annotation" upto slide 10
+  updatedAt: '2025-02-27T13:17:13Z'
+  url: https://github.com/galaxyproject/training-material/pull/5604
+5755:
+  author:
+    id: MDQ6VXNlcjQyOTE2MzY=
+    is_bot: false
+    login: nekrut
+    name: Anton Nekrutenko
+  closedAt: '2025-02-27T09:23:35Z'
+  createdAt: '2025-02-12T21:43:30Z'
+  files:
+  - path: topics/data-science/tutorials/gnmx-lecture6/tutorial.md
+    additions: 1
+    deletions: 1
+  headRefName: nekrut-patch-2
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - data-science
+  mergedAt: '2025-02-27T09:23:35Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:44:56Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:44:57Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:44:58Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:44:58Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:44:59Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:45:00Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-27T09:23:28Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update tutorial.md
+  updatedAt: '2025-02-27T09:23:35Z'
+  url: https://github.com/galaxyproject/training-material/pull/5755
+5756:
+  author:
+    id: MDQ6VXNlcjQyOTE2MzY=
+    is_bot: false
+    login: nekrut
+    name: Anton Nekrutenko
+  closedAt: '2025-02-27T09:22:52Z'
+  createdAt: '2025-02-12T21:46:43Z'
+  files:
+  - path: topics/data-science/tutorials/gnmx-lecture6/tutorial.md
+    additions: 1
+    deletions: 1
+  headRefName: nekrut-patch-3
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels:
+  - data-science
+  mergedAt: '2025-02-27T09:22:52Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:48:15Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:48:15Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:48:16Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:48:17Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:48:17Z'
+    reactionGroups: []
+  - author:
+      login: github-actions
+    state: COMMENTED
+    submittedAt: '2025-02-12T21:48:18Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: COMMENTED
+    submittedAt: '2025-02-13T15:07:11Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-27T09:22:44Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update tutorial.md
+  updatedAt: '2025-02-27T09:22:59Z'
+  url: https://github.com/galaxyproject/training-material/pull/5756
+5602:
+  author:
+    id: MDQ6VXNlcjgyOTYxOTEy
+    is_bot: false
+    login: shrutikhare-git
+    name: shruti
+  closedAt: '2025-02-27T09:19:20Z'
+  createdAt: '2024-12-06T04:36:46Z'
+  files:
+  - path: topics/single-cell/tutorials/GO-enrichment/tutorial.md
+    additions: 4
+    deletions: 2
+  headRefName: patch-2
+  headRepository:
+    id: R_kgDONYohMg
+    name: training-material
+  labels:
+  - single-cell
+  - spoc-cofest
+  mergedAt: '2025-02-27T09:19:20Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2024-12-06T10:24:10Z'
+    reactionGroups: []
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2024-12-06T10:25:21Z'
+    reactionGroups: []
+  - author:
+      login: nomadscientist
+    state: COMMENTED
+    submittedAt: '2024-12-06T10:25:46Z'
+    reactionGroups: []
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-27T09:14:18Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update tutorial.md
+  updatedAt: '2025-02-27T09:19:20Z'
+  url: https://github.com/galaxyproject/training-material/pull/5602
+5603:
+  author:
+    id: MDQ6VXNlcjIyMDAxNTY1
+    is_bot: false
+    login: GokceOGUZ
+    name: ''
+  closedAt: '2025-02-27T08:41:58Z'
+  createdAt: '2024-12-06T04:44:47Z'
+  files:
+  - path: topics/single-cell/images/GO-enrichment/slides_images/ontology_2_v2.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/images/GO-enrichment/slides_images/roadmap_1_v2.png
+    additions: 0
+    deletions: 0
+  - path: topics/single-cell/tutorials/GO-enrichment/slides.html
+    additions: 18
+    deletions: 12
+  - path: topics/single-cell/tutorials/GO-enrichment/tutorial.bib
+    additions: 34
+    deletions: 0
+  headRefName: main
+  headRepository:
+    id: R_kgDONYouWQ
+    name: training-material
+  labels:
+  - single-cell
+  - spoc-cofest
+  mergedAt: '2025-02-27T08:41:58Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-27T08:41:50Z'
+    reactionGroups: []
+  state: MERGED
+  title: Rephrasing some of the captions/notes.
+  updatedAt: '2025-02-27T08:42:12Z'
+  url: https://github.com/galaxyproject/training-material/pull/5603
+5793:
+  author:
+    id: MDQ6VXNlcjIzODc1NQ==
+    is_bot: false
+    login: abretaud
+    name: Anthony Bretaudeau
+  closedAt: '2025-02-26T13:56:33Z'
+  createdAt: '2025-02-21T13:23:19Z'
+  files:
+  - path: topics/genome-annotation/tutorials/apollo-euk/tutorial.md
+    additions: 5
+    deletions: 5
+  - path: topics/genome-annotation/tutorials/apollo/slides.html
+    additions: 1
+    deletions: 1
+  - path: topics/genome-annotation/tutorials/apollo/tutorial.md
+    additions: 0
+    deletions: 5
+  headRefName: apollo_zenodo
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnk3MDEzOTI3OQ==
+    name: training-material
+  labels:
+  - genome-annotation
+  mergedAt: '2025-02-26T13:56:33Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-26T13:51:21Z'
+    reactionGroups: []
+  state: MERGED
+  title: 'Fix input data for apollo tutorial (fixes #5792)'
+  updatedAt: '2025-02-26T13:56:33Z'
+  url: https://github.com/galaxyproject/training-material/pull/5793
+5795:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-26T13:44:44Z'
+  createdAt: '2025-02-23T23:31:08Z'
+  files:
+  - path: news/images/GTA2025_call_trainer_banner.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/GATA_motif.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/fastqc_adapter_content_plot_post.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/fastqc_adapter_content_plot_pre.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/fastqc_sequence_duplication_levels_plot.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/insert_size.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/mapping_stats.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/mark_duplicates_screen.png
+    additions: 0
+    deletions: 0
+  - path: topics/epigenetics/images/cut_and_run/mark_duplicates_transpose.png
+    additions: 0
+    deletions: 0
+  headRefName: create-pull-request/patch-1740353464
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-26T13:44:44Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-26T13:44:35Z'
+    reactionGroups: []
+  state: MERGED
+  title: Auto Compress Images
+  updatedAt: '2025-02-26T13:44:45Z'
+  url: https://github.com/galaxyproject/training-material/pull/5795
+5796:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-26T13:44:02Z'
+  createdAt: '2025-02-24T01:09:43Z'
+  files:
+  - path: metadata/shortlinks.yaml
+    additions: 1
+    deletions: 0
+  headRefName: create-pull-request/patch-1740359381
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-26T13:44:02Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-26T13:43:53Z'
+    reactionGroups: []
+  state: MERGED
+  title: Update Persistent uniform resource locators
+  updatedAt: '2025-02-26T13:44:02Z'
+  url: https://github.com/galaxyproject/training-material/pull/5796
+5799:
+  author:
+    id: MDQ6VXNlcjI5NzM3MjI=
+    is_bot: false
+    login: arash77
+    name: Arash Kadkhodaei
+  closedAt: '2025-02-25T14:29:59Z'
+  createdAt: '2025-02-25T14:20:36Z'
+  files:
+  - path: _plugins/feeds.rb
+    additions: 3
+    deletions: 3
+  headRefName: activate-events-feed-date
+  headRepository:
+    id: R_kgDONPO_wA
+    name: training-material
+  labels:
+  - template-and-tools
+  mergedAt: '2025-02-25T14:29:59Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-25T14:29:34Z'
+    reactionGroups: []
+  state: MERGED
+  title: Uncomment category tags for event details in XML output
+  updatedAt: '2025-02-25T14:30:07Z'
+  url: https://github.com/galaxyproject/training-material/pull/5799
+5700:
+  author:
+    id: MDQ6VXNlcjUzOTUwNjU5
+    is_bot: false
+    login: wennj
+    name: Jörg Wennmann
+  closedAt: '2025-02-24T15:19:25Z'
+  createdAt: '2025-01-17T17:53:43Z'
+  files:
+  - path: CONTRIBUTORS.yaml
+    additions: 11
+    deletions: 0
+  - path: topics/variant-analysis/images/baculovirus-isolate-variation/SNV_specificity_plot_CpGV-E2.png
+    additions: 0
+    deletions: 0
+  - path: topics/variant-analysis/images/baculovirus-isolate-variation/SNV_specificity_plot_CpGV-S.png
+    additions: 0
+    deletions: 0
+  - path: topics/variant-analysis/images/baculovirus-isolate-variation/SNV_specificity_plot_CpGV-V15.png
+    additions: 0
+    deletions: 0
+  - path: topics/variant-analysis/images/baculovirus-isolate-variation/galaxy_vcf_table_column_numbers_names.png
+    additions: 0
+    deletions: 0
+  - path: topics/variant-analysis/images/baculovirus-isolate-variation/snp_plot.png
+    additions: 0
+    deletions: 0
+  - path: topics/variant-analysis/tutorials/baculovirus-isolate-variation/faqs/index.md
+    additions: 3
+    deletions: 0
+  - path: topics/variant-analysis/tutorials/baculovirus-isolate-variation/tutorial.bib
+    additions: 179
+    deletions: 0
+  - path: topics/variant-analysis/tutorials/baculovirus-isolate-variation/tutorial.md
+    additions: 867
+    deletions: 0
+  - path: topics/variant-analysis/tutorials/baculovirus-isolate-variation/workflows/Workflow-to-detect-SNV-from-Illumina-sequenced-baculovirus-isolates-tests.yml
+    additions: 37
+    deletions: 0
+  - path: topics/variant-analysis/tutorials/baculovirus-isolate-variation/workflows/Workflow-to-detect-SNV-from-Illumina-sequenced-baculovirus-isolates.ga
+    additions: 1140
+    deletions: 0
+  - path: topics/variant-analysis/tutorials/baculovirus-isolate-variation/workflows/index.md
+    additions: 3
+    deletions: 0
+  headRefName: main
+  headRepository:
+    id: R_kgDONhXBKw
+    name: training-material
+  labels:
+  - variant-analysis
+  - template-and-tools
+  mergedAt: '2025-02-24T15:19:25Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ3NDIwODE=
+    is_bot: false
+    login: wm75
+    name: Wolfgang Maier
+  reactionGroups: []
+  reviews:
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-01-17T22:50:09Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-18T14:12:08Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-18T14:39:07Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-18T14:47:29Z'
+    reactionGroups: []
+  - author:
+      login: bgruening
+    state: COMMENTED
+    submittedAt: '2025-01-20T16:28:48Z'
+    reactionGroups: []
+  - author:
+      login: wm75
+    state: COMMENTED
+    submittedAt: '2025-01-20T17:30:24Z'
+    reactionGroups: []
+  - author:
+      login: wm75
+    state: COMMENTED
+    submittedAt: '2025-01-20T17:34:18Z'
+    reactionGroups: []
+  - author:
+      login: wm75
+    state: COMMENTED
+    submittedAt: '2025-01-20T17:37:11Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-21T18:18:06Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-22T18:38:23Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-22T19:53:55Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-23T17:21:08Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-24T12:45:48Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-24T15:31:02Z'
+    reactionGroups: []
+  - author:
+      login: wm75
+    state: COMMENTED
+    submittedAt: '2025-01-28T08:58:43Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-29T17:42:49Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-29T17:43:20Z'
+    reactionGroups: []
+  - author:
+      login: wm75
+    state: COMMENTED
+    submittedAt: '2025-01-31T10:42:57Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-31T15:45:45Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-31T15:47:11Z'
+    reactionGroups: []
+  - author:
+      login: wennj
+    state: COMMENTED
+    submittedAt: '2025-01-31T16:03:24Z'
+    reactionGroups: []
+  - author:
+      login: wm75
+    state: COMMENTED
+    submittedAt: '2025-02-10T13:56:37Z'
+    reactionGroups: []
+  - author:
+      login: wm75
+    state: APPROVED
+    submittedAt: '2025-02-24T15:18:23Z'
+    reactionGroups:
+    - content: ROCKET
+      users:
+        totalCount: 1
+  state: MERGED
+  title: Add new tutorial for deciphering viral populations using SNV and baculovirus
+    isolates (Variant analysis)
+  updatedAt: '2025-02-24T15:19:26Z'
+  url: https://github.com/galaxyproject/training-material/pull/5700
+5798:
+  author:
+    id: U_kgDOB07m_g
+    is_bot: false
+    login: dianichj
+    name: diana chJ
+  closedAt: '2025-02-24T14:46:23Z'
+  createdAt: '2025-02-24T13:38:42Z'
+  files:
+  - path: topics/single-cell/tutorials/pseudobulk-analysis/tutorial.md
+    additions: 3
+    deletions: 3
+  headRefName: main
+  headRepository:
+    id: R_kgDOMeVuBw
+    name: training-material
+  labels:
+  - single-cell
+  mergedAt: '2025-02-24T14:46:23Z'
+  mergedBy:
+    id: MDQ6VXNlcjI1NjM4NjU=
+    is_bot: false
+    login: shiltemann
+    name: Saskia Hiltemann
+  reactionGroups: []
+  reviews:
+  - author:
+      login: shiltemann
+    state: APPROVED
+    submittedAt: '2025-02-24T14:42:25Z'
+    reactionGroups: []
+  state: MERGED
+  title: Pseudobulk Tutorial - Fixed Zenodo data link
+  updatedAt: '2025-02-24T14:47:19Z'
+  url: https://github.com/galaxyproject/training-material/pull/5798
+5797:
+  author:
+    is_bot: true
+    login: app/github-actions
+  closedAt: '2025-02-24T07:44:11Z'
+  createdAt: '2025-02-24T01:11:11Z'
+  files:
+  - path: metadata/git-mod-d84e78169674179498fe3ee9d7c94fca95b527a5.txt
+    additions: 73
+    deletions: 0
+  - path: metadata/git-pub-d84e78169674179498fe3ee9d7c94fca95b527a5.txt
+    additions: 35
+    deletions: 0
+  - path: metadata/github.yml
+    additions: 759
+    deletions: 0
+  headRefName: create-pull-request/patch-1740359468
+  headRepository:
+    id: MDEwOlJlcG9zaXRvcnkzODI0MTQ2MQ==
+    name: training-material
+  labels: []
+  mergedAt: '2025-02-24T07:44:11Z'
+  mergedBy:
+    id: MDQ6VXNlcjQ2OTk4Mw==
+    is_bot: false
+    login: bgruening
+    name: Björn Grüning
+  reactionGroups: []
+  reviews: []
+  state: MERGED
+  title: Update Cached Commit Data
+  updatedAt: '2025-02-24T07:44:11Z'
+  url: https://github.com/galaxyproject/training-material/pull/5797
