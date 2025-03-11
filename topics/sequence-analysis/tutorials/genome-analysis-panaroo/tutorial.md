@@ -1,21 +1,20 @@
 ---
 layout: tutorial_hands_on
 
-title: "Genome annotation and analysis with panaroo"
-zenodo_link: "https://zenodo.org/records/14796384"
+title: "Genome annotation and analysis with Panaroo"
+zenodo_link: ""
 
 questions:
   - "What is Panaroo?"
   - "What are the inputs?"
   - "What are the expected outputs?"
   - "How does Panaroo make pangenome analysis more accurate?"
-  - "How does Panaroo’s performance compare to other methods?"
-  - 
+
 objectives:
   - "Correct for many of the sources of annotation error"
   - "Improve annotation calls and allow for the comparison of pangenomes between species"
-  - 
-time_estimation: "15m"
+
+time_estimation: "20m"
 
 key_points:
   - Panaroo is able to account for many of the sources of error during automated annotation.
@@ -32,10 +31,7 @@ tags:
   - genome annotation
 ---
 
-
 Panaroo is a graph-based pangenome clustering tool, that is designed to correct for many sources of error introduced during annotation. This includes refinding genes were there are inconsistencies. Panaroo does this by clustering genes based on sequence similarity and identifies similar genes from different species.
-
-
 
 > <agenda-title></agenda-title>
 >
@@ -46,82 +42,60 @@ Panaroo is a graph-based pangenome clustering tool, that is designed to correct 
 >
 {: .agenda}
 
-## What does it do
+# What does Panaroo do
 
-> <hands-on-title> Data Upload </hands-on-title>
->
-> 1. Create a new history for this tutorial and give it a proper name
->
->    {% snippet faqs/galaxy/histories_create_new.md %}
->
->    {% snippet faqs/galaxy/histories_rename.md %}
->
-> 2. Import the file `query.faa` from [Zenodo]({{ page.zenodo_link }})
->
->    ```
->    https://zenodo.org/records/7524427/files/query.faa
->    ```
->
->    {% snippet faqs/galaxy/datasets_import_via_link.md %}
->
->
+Panaroo builds a graph that represents the pangenome, where nodes are clusters of orthologous genes and edges connect nodes if they are adjacent on a sequence in any sample from the population. This graphical representation is then used for error correction and cleaning for the problems found in genome annotation. Panaroo corrects the errors by collapsing diverse gene families, merging fragmented gene segments, filtering contamination, and identifying missing genes.
+
+Fragmented assemblies can lead to issues where a DNA sequence is fragmented or split into smaller parts during assembly. These kind of erroneous annotations tend to appear as short paths of weak edges and nodes that end in a node of degree 1 that also splits of from the main graph. Panaroo removes recursively nodes of degree 1 that are below a support threshold. To remove contaminating contiguous sequences of DNA or RNA, Panaroo uses the same approach.
+
+Panaroo takes as input annotated genomes in GFF3 format as output by the annotation pipeline Prokka and generates a variety of outputs, including a presence-absence matrix and an annotated graph. Panaroo tries to preserve the global context of each gene in the graph. 
+
+Panaroo generates initial gene clusters by using a tool called CD-HIT (Cluster Database at High Identity with Tolerance), which is for clustering and comparing protein or nucleotide sequences. Resulting clusters are split into two groups. Either as non-paralogous gene clusters if they contain at most one instance of each genome, or paralogous clusters if they contain more than one instance of each genome. First  non-paralogous gene clusters are illustrated by a single node in the graph and  paralogous clusters are illustrated by a node for every occurence of that cluster in the dataset. Later on the graph is built by connecting cluster node with edges and paralogous nodes are merged into the highest number of nodes where those genes are present within a single genome using the global context of the graph.
+
+Panaroo identifies gene families using an alignment threshold together with neighbourhood information. Potentially missing genes from one or more samples are identified in the graph and the continuous sequence of DNA fragments assembled from overlapping pieces of genetic data near neighbouring nodes is searched to check for the presence of the gene.
+
+To construct the graph, Panaroo uses a number of predefined thresholds that can all be adjusted by the user. Panaroo has several modes available for common use cases. 
+
+The ‘strict’ mode is more aggressive for the removal of contamination and error in the annotation. This is mostly used when investigating genomes where parameters such as gene gain and loss rates are relevant or if no rare plasmids are expected.
+
+In its ‘sensitive’ mode, Panaroo does not remove any gene clusters. This is mostly used if rare plasmids are expected, which may be hard to distinguish from contamination, but it is possible to get a higher number of erroneous clusters.
+
+Panaroo includes a number of pre- and post-processing scripts that can be used for quality control, evaluating the pangenome size, and identifying coincident genes through gene gain and loss rates.
+
+# What are the inputs
+
+> <hands-on-title>Upload the datasets</hands-on-title>  
+> 1. Upload your local files and let Panaroo read them:  
+>   - Click on the three dots (Browse or Upload Datasets).  
+>   - Click the "Upload" button on the bottom left.  
+>   - Choose a local or remote file and upload it by clicking the "Start" button.  
+>   - If they turn green, you can close this window, and then select your datasets.  
+> 2. Set the parameters:  
+>   - Take a look at the sections and set the parameters accordingly.  
+>   - The parameters have a short description text right under them.  
+>   - Note: Parameters with a "*" tag are required, and parameters with the "-optional" tag do not have to be defined in order for the tool to run correctly.  
+
 {: .hands_on}
 
-We just imported a FASTA file into Galaxy. Now, the next would be to perfrom the BLAST analysis against MAdLandDB.
+In order to run Panaroo properly, it needs at least two GFF3 files.  
+![input data upload](/images/1.jpg "This is where you select your local GFF3 files")  
+![input data upload](/images/2.jpg)  
+![input data upload](/images/3.jpg "If everything is fine with the provided GFF3 files, it should then look like this")
 
-## What are the inputs
+Now you are able to run the tool. Before running it, you need to set the parameters correctly. Therefore, there are some sections with settings for the respective parameters.
 
-Since MAdLandDB is the collection of protein sequences, You can perform {% tool [BLASTp](toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2) %} and {% tool [BLASTx](toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2) %} tools.
+![input data upload](/images/4.jpg "Here we can see Panaroo Mode. In here we have filtering mode that sets the aggressiveness for removing errors and contamination in the annotation. Here we can also see, thanks to the '*' symbol, that this is a required parameter and needs to be defined. Then we have the option to select which genetic code table to use when analyzing nucleotide sequences and we can choose from 33 options. At last we have the option to remove invalid genes but this option is not required.")
 
-> <hands-on-title> Similarity search against MAdLand Database </hands-on-title>
->
-> 1. {% tool [BLASTp](toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/2.10.1+galaxy2) %} OR {% tool [BLASTx](toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/2.10.1+galaxy2) %} with the following parameters:
->    - _"Protein query sequence(s)"_: `Amino acid input sequence` (In case of BLASTp) *OR*
->    - _"Translated nucleotide query sequence(s)"_: `Translated nucleotide input sequence` (In case of BLASTx)
->    - _"Subject database/sequences"_: `Locally installed BLAST database`
->    - _"Protein BLAST database"_: `MadLandDB (Genome zoo) plant and algal genomes with a focus on non-seed plants and streptophyte algae (22 Dec 2022)`
->    - _"Set expectation value cutoff"_: `0.001`
->    - _"Output format"_:
->    - In _"Output Options"_: `Tabular (extended 25 columns)`
-> <img src="../../images/ncbi-blast-against-the-madland/blast-example.png" alt="blast against madland" width="80%">
->
-{: .hands_on}
+# What are the expected outputs
 
-## What are the expected outputs
+Panaroo generates between 12 and 17 outputs, depending on the parameter settings. With the default settings, it produces 12 outputs. 
+Panaroo outputs a fully annotated pangenome graph, where each gene node and edge is annotated with the genomes it belongs to, the gene annotations provided by Prokka, the gene sequence, as well as the classification wheter the node is a paralog or not. This graph format is able to give insights other similar tools like Roary cannot, as Panaroo uses the global context and builds the entire pangenome graph. 
 
-{% icon tool %} The BLAST output will be in tabular format (you can select the desired output format from the drop down menu) and include the following fields :
+Here is how an output can look like:
+![input data upload](/images/5.jpg)
 
-| Column | NCBI name | Description |
-|-------|------------|-------------|
-| 1 | qseqid | Query Seq-id (ID of your sequence) |
-| 2 | sseqid | Subject Seq-id (ID of the database hit) |
-| 3 | pident | Percentage of identical matches |
-| 4 | length | Alignment length |
-| 5 | mismatch | Number of mismatches |
-| 6 | gapopen | Number of gap openings |
-| 7 | qstart | Start of alignment in query |
-| 8 | qend | End of alignment in query |
-| 9 | sstart | Start of alignment in subject (database hit) |
-| 10 | send | End of alignment in subject (database hit) |
-| 11 | evalue | Expectation value (E-value) |
-| 12 | bitscore | Bit score |
+Note: Panaroo outputs many of the same file formats as Roary to ease the integration with existing bioinformatics pipelines.
 
-The fields are separated by tabs, and each row represents a single hit. For more details for BLAST analysis and output, we recommand you to follow the [Similarity-searches-blast]({% link topics/genome-annotation/tutorials/genome-annotation/tutorial.md %}#similarity-searches-blast) tutorial.
+# How to interpret the results
 
-
-> <details-title>Further Reading about BLAST Tools in Galaxy</details-title>
->
-> See {% cite Cock2015 %} and {% cite Cock2013 %}
->
-{: .details}
-
-## How to interpret the results
-
-* **Diamond**: {% tool [Diamond](toolshed.g2.bx.psu.edu/repos/bgruening/diamond/bg_diamond/2.0.15+galaxy0) %} is a high-throughput program for alignment of  large-scale data sets. It aligns sequences to the reference database using a compressed version of the reference sequences called a "database diamond" which is faster to read and can save computational time (~20,000 times the speed of Blastx, with high sensitivity).
-
-> <details-title>Diamond in depth</details-title>
->
-> See {% cite Buchfink2014 %} for more discussion.
-{: .details}
-
-
+results.

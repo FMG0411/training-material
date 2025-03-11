@@ -264,6 +264,29 @@ icon-tag:
 
 # To exclude in _site
 exclude:
+  - workspaces/training-material/assets/fontawesome/webfonts
+  - workspaces/training-material/topics/assembly/tutorials/metagenomics-assembly
+  - workspaces/training-material/topics/microbiome/tutorials/metagenomics-assembly
+  - workspaces/training-material/topics/proteomics/tutorials/clinical-mp-3-verification
+  - workspaces/training-material/topics/proteomics/tutorials/clinical-mp-1-database-generation
+  - workspaces/training-material/topics/proteomics/tutorials/clinical-mp-2-discovery
+  - workspaces/training-material/topics/proteomics/tutorials/clinical-mp-5-data-interpretation
+  - workspaces/training-material/topics/proteomics/tutorials/clinical-mp-4-quantitation
+  - workspaces/training-material/topics/data-science/tutorials/data-manipulation-olympics
+  - workspaces/training-material/topics/introduction/tutorials/data-manipulation-olympics
+  - workspaces/training-material/topics/fair/tutorials/fair-gtn
+  - workspaces/training-material/topics/computational-chemistry/tutorials/med-chem-data
+  - workspaces/training-material/topics/imaging/tutorials/bioimage-metadata
+  - workspaces/training-material/topics/fair/tutorials/bioimage-metadata
+  - workspaces/training-material/topics/imaging/tutorials/bioimage-REMBI
+  - workspaces/training-material/topics/fair/tutorials/bioimage-REMBI
+  - workspaces/training-material/topics/microbiome/tutorials/mothur-miseq-sop/faqs
+  - workspaces/training-material/topics/evolution/tutorials/abc_intro_phylo-intro/images
+  - workspaces/training-material/topics/evolution/tutorials/abc_intro_phylo/images
+  - workspaces/training-material/topics/evolution/tutorials/abc_intro_phylo-terminology/images
+  - workspaces/training-material/topics/evolution/tutorials/abc_intro_phylo-networks/images
+  - workspaces/training-material/topics/evolution/tutorials/abc_intro_phylo-mle-trees/images
+  - workspaces/training-material/topics/evolution/tutorials/abc_intro_phylo-trees/graphics
   - shared/font-awesome/src/
   - Gemfile
   - Gemfile.lock

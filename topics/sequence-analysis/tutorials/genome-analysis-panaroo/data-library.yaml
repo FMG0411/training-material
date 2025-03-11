@@ -1,0 +1,19 @@
+---
+destination:
+  type: library
+  name: GTN - Material
+  description: Galaxy Training Network Material
+  synopsis: Galaxy Training Network Material. See https://training.galaxyproject.org
+items:
+- name: Sequence analysis
+  description: Analyses of sequences
+  items:
+  - name: Genome annotation and analysis with Panaroo
+    items:
+    - name: ''
+      description: latest
+      items:
+      - url: 
+        src: url
+        ext: 
+        info: 
