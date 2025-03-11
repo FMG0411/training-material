@@ -2216,6 +2216,15 @@ rahmot:
     joined: 2021-10
     linkedin: rahmot-afolabi
 
+ralfg:
+    name: Ralf Gabriels
+    joined: 2025-02
+    elixir_node: be
+
+raphaelmourad:
+    name: Raphael Mourad
+    joined: 2025-02
+
 Rassine:
     name: Ankerl Yassine
     email: yassine.ankerl@live.fr
@@ -2742,6 +2751,11 @@ vloux:
     name: Valentin Loux
     joined: 2019-04
 
+wandrilled:
+    name: Wandrille Duchemin
+    joined: 2025-02
+    elixir_node: ch
+
 wee-snufkin:
     name: Julia Jakiela
     email: juliajot36@gmail.com
@@ -2916,6 +2930,10 @@ tbrown91:
     orcid: 0000-0001-8293-4816
     joined: 2024-08
 
+tStehling:
+    name: Thorben Stehling
+    joined: 2024-11
+
 rmassei:
     name: Riccardo Massei
     email: riccardo.massei@ufz.de
@@ -2923,4 +2941,3 @@ rmassei:
     joined: 2024-11
     affiliations:
       - nfdi4bioimage
-

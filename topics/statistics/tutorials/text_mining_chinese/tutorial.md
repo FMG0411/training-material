@@ -1,6 +1,5 @@
 ---
 layout: tutorial_hands_on
-draft: true
 
 title: Text-Mining Differences in Chinese Newspaper Articles
 level: Introductory
@@ -26,7 +25,7 @@ contributions:
 
 
 The British Hong Kong Government censored Chinese newspapers before their publication in the colony in the 1930s ({% cite Ng2022 %}).
-Replacement characters like `×` visibly marked those redactions, making them visible even to those who did not read any Chinese.
+Replacement characters like × visibly marked those redactions, making them visible even to those who did not read any Chinese.
 
 ![Example of a Chinese article with symbol × marking censored characters]({% link topics/statistics/tutorials/text_mining_chinese/images/Example_x_censored_Chinese_article.svg %} "Example of a Chinese article with symbol × marking censored characters")
 
@@ -110,11 +109,12 @@ We will use Regular Expressions in a tool called "Replace text". It contains fou
 
 > <hands-on-title> Cleaning the Text with Regular Expressions </hands-on-title>
 >
-> 1. {% tool [Replace Text](toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1) %} with the following parameters:
+> 1. {% tool [Replace Text](toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy0) %} with the following parameters:
 >    - {% icon param-file %} *"File to process"*: `output` (Input dataset)
 >    - In *"Replacement"*:
 >        - {% icon param-repeat %} *"Insert Replacement"*
 >            - *"Find pattern"*: `\r`
+>            - *"Additional sed commands before replacement"*: `:a;N;$!ba;`
 >        - {% icon param-repeat %} *"Insert Replacement"*
 >            - *"Find pattern"*: `\n`
 >        - {% icon param-repeat %} *"Insert Replacement"*
@@ -127,7 +127,10 @@ We will use Regular Expressions in a tool called "Replace text". It contains fou
 >    > Regular expressions can not only find particular words, as you might be familiar with from regular text editors.
 >    > It is more powerful and can find particular patterns, for example, only capitalised words or all numbers.
 >    > In this step, we mostly delete unnecessary placeholders.
->    > The first pattern we want to find is `\r`. It catches a specific form of invisible linebreaks that would create unwanted gaps in the comparison later. We delete those by leaving the optional "Replace with" field blank.
+>    > The first pattern we want to find is `\r`. It catches a specific form of invisible linebreaks that would create unwanted gaps in the comparison later.
+>    > We delete those by leaving the optional "Replace with" field blank.
+>    > The additional sed commands before replacement `:a;N;$!ba;` catch all blank spaces with this tool.
+>    > It is necessary only once to ensure that particular end-of-line characters are removed consistently.
 >    > Similarly, `\n` marks linebreaks. We also delete those by leaving the optional "Replace with" field blank.
 >    > The next expression we search for is `\s`. Those are spaces as you see them between words on your computer. We delete those.
 >    > As a result, there are no gaps in our text anymore.
@@ -365,9 +368,10 @@ The last step is to visualise the results within a word cloud. It shows, which c
 
 > <hands-on-title> Task description </hands-on-title>
 >
-> 1. {% tool [Generate a word cloud](toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy0) %} with the following parameters:
+> 1. {% tool [Generate a word cloud](toolshed.g2.bx.psu.edu/repos/bgruening/wordcloud/wordcloud/1.9.4+galaxy1) %} with the following parameters:
 >    - {% icon param-file %} *"Input file"*: `out_file1` (output of **Cut** {% icon tool %})
->    - *" Smallest font size to use"*: `8`
+>    - *"Do you want to select a special font?": `Select from a list of fonts`: `Noto Sans Traditional Chinese`
+>    - *"Smallest font size to use"*: `8`
 >    - *"Color option"*: `Color`
 >    - *"Ratio of times to try horizontal fitting as opposed to vertical"*: `1.0`
 >    - *"Scaling of words by frequency (0 - 1)"*: `0.9`
